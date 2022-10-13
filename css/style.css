@@ -1,0 +1,244 @@
+@media only screen and (max-width: 1200px) {
+  .job-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .cert-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: "Inter Tight", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  background-color: white;
+}
+
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+.sub-section-a {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #1c1d25;
+  padding: 80px;
+  color: white;
+}
+
+.sub-section-b {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  padding: 80px;
+  color: black;
+}
+
+.hero {
+  background-color: #1c1d25;
+  height: 100vh;
+  color: white;
+  font-size: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 750px;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+li {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 90px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+p {
+  margin: 0;
+  font-size: 30px;
+}
+
+.sub-text {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.hero-area {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  margin-left: 80px;
+  margin-bottom: 200px;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+  border-radius: 40px;
+  background-color: coral;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.button:hover {
+  background-color: #ef744b;
+}
+
+.button:active {
+  background-color: #a9a9a9;
+  color: #808080;
+}
+
+.socials {
+  padding-bottom: 200px;
+}
+
+.socials-footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+
+.social-icon {
+  margin: 20px;
+}
+
+.headshot {
+  width: 300px;
+  border-radius: 150px;
+}
+
+.headshot-container {
+  display: flex;
+  align-items: center;
+}
+
+.job-card {
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  background-color: white;
+  color: #1c1d25;
+  border-radius: 0.25rem;
+  box-shadow: 10px 5px 10px black;
+}
+
+.job-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.job-image {
+  margin-top: 25px;
+  width: 200px;
+}
+
+.job-image-orsus {
+  margin-top: 50px;
+  padding-bottom: 50px;
+  width: 200px;
+}
+
+.job-link {
+  color: navy;
+}
+
+.cert-card {
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  background-color: white;
+  color: #1c1d25;
+  border-radius: 2rem;
+  border: solid 1px #eee;
+  box-shadow: 10px 5px 10px lightgray;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.cert-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cert-image {
+  margin-top: 25px;
+  width: 200px;
+}
+
+.cert-image-aws {
+  margin-top: 25px;
+  width: 100px;
+}
+
+.cert-link {
+  color: navy;
+}
+
+.port-card {
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  background-color: white;
+  color: #1c1d25;
+  border-radius: 0.25rem;
+  box-shadow: 10px 5px 10px black;
+}
+
+.port-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.port-image {
+  margin-top: 25px;
+  width: 200px;
+}
+
+.port-link {
+  color: navy;
+}
+
+footer {
+  background-color: white;
+  color: #1c1d25;
+  text-align: center;
+  padding: 80px;
+}
