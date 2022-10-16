@@ -1,33 +1,8 @@
-@media only screen and (max-width: 1200px) {
-  .job-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-
-@media only screen and (max-width: 1500px) {
-  .cert-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .hero-area {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .navbar {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-
 body {
   margin: 0;
   font-family: "Inter Tight", sans-serif;
   font-family: "Open Sans", sans-serif;
+  color: #00001a;
 }
 
 a {
@@ -35,227 +10,181 @@ a {
   color: white;
 }
 
-section {
+.container {
   background-color: white;
+  display: grid;
+  grid-row-gap: 2rem;
 }
 
-.sub-section {
-  display: flex;
-  justify-content: space-around;
-  padding: 5em;
+.hero-section {
+  color: #00001a;
+  border-bottom: solid 0.1rem black;
 }
 
-.sub-section-a {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  background-color: #1c1d25;
-  padding: 5em;
-  color: white;
-}
-
-.sub-section-b {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  background-color: white;
-  padding: 5em;
-  color: black;
-}
-
-.hero {
-  background-color: #1c1d25;
-  height: 100vh;
-  color: white;
-  font-size: 40px;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-ul {
-  display: flex;
-  list-style-type: none;
-  width: 750px;
-  justify-content: space-around;
-  font-size: 30px;
-}
-
-li {
+.hero-text > h1 {
+  color: #00001a;
   text-decoration: none;
-  margin: 10px;
 }
 
-h1 {
-  font-size: 90px;
-  margin: 0;
-}
-
-h2 {
-  font-size: 50px;
-}
-
-p {
-  margin: 0;
-  font-size: 30px;
-}
-
-.sub-text {
-  font-size: 15px;
-  font-weight: 300;
-}
-
-.hero-area {
-  display: flex;
-  height: 100%;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.hero-text {
-  margin-left: 80px;
-  margin-bottom: 200px;
+.hero-text > p {
+  color: #00001a;
+  text-decoration: none;
 }
 
 .button {
-  width: 200px;
-  height: 50px;
-  border-radius: 40px;
-  background-color: coral;
+  color: white;
+  background-color: #cc5200;
+  width: 5rem;
+  border-radius: 2.5rem;
   text-align: center;
-  padding-top: 5px;
-  font-size: 30px;
-  margin-top: 40px;
 }
 
-.button:hover {
-  background-color: #CC5500;
+.about-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-bottom: solid 0.1rem black;
 }
 
-.button:active {
-  background-color: #a9a9a9;
-  color: #808080;
-}
-
-.socials {
-  padding-bottom: 200px;
-}
-
-.socials-footer {
-    display: flex;
-    justify-content: center;
-  }
-  
-
-.social-icon {
-  margin: 20px;
+.information {
+  grid-column: 1 / span 3;
 }
 
 .headshot {
-  width: 300px;
-  border-radius: 150px;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 6rem;
+  margin-bottom: 1rem;
 }
 
-.headshot-container {
-  display: flex;
-  align-items: center;
-}
-
-.job-card {
-  width: 300px;
-  height: 400px;
-  margin: 10px;
-  background-color: white;
-  color: #1c1d25;
-  border-radius: 0.25rem;
-  box-shadow: 10px 5px 10px black;
+.experience-section {
+  color: #00001a;
+  border-bottom: solid 0.1rem black;
 }
 
 .job-container {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 0 2rem 0;
+  justify-items: center;
 }
 
-.job-image {
-  margin-top: 25px;
-  width: 200px;
-}
-
-.job-image-orsus {
-  margin-top: 50px;
-  padding-bottom: 50px;
-  width: 200px;
+.job-card {
+  background-color: white;
+  width: 18rem;
+  color: #00001a;
+  border-radius: 2rem;
+  text-align: center;
+  box-shadow: 0.5rem 0.5rem 1rem #bfbfbf;
 }
 
 .job-link {
-  color: navy;
+  text-decoration: none;
+  color: #00001a;
+  font-size: 1.3rem;
 }
 
-.cert-card {
-  width: 300px;
-  height: 400px;
-  margin: 10px;
-  background-color: white;
-  color: #1c1d25;
-  border-radius: 2rem;
-  border: solid 1px #eee;
-  box-shadow: 10px 5px 10px lightgray;
-  padding-left: 30px;
-  padding-right: 30px;
+.job-image {
+  width: 10rem;
+  height: 10rem;
+}
+.job-image-orsus {
+  width: 8rem;
+  margin: 2.75rem 0 2.75rem 0;
+}
+
+.job-image-frg {
+  width: 10rem;
+  height: 10rem;
+}
+
+.cert-section {
+  border-bottom: solid 0.1rem black;
+  padding-bottom: 2rem;
 }
 
 .cert-container {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1rem;
 }
 
-.cert-image {
-  margin-top: 25px;
-  width: 200px;
-}
-
-.cert-image-aws {
-  margin-top: 25px;
-  width: 100px;
+.cert-card {
+  width: 16rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.5rem 0.5rem 1rem #bfbfbf;
+  text-align: center;
+  padding: 1.5rem;
 }
 
 .cert-link {
-  color: navy;
+  text-decoration: none;
+  color: #00001a;
+  font-size: 1.3rem;
 }
 
-.port-card {
-  width: 21.875rem;
-  height: 21.875rem;
-  margin: .625rem;
-  background-color: white;
-  color: #1c1d25;
-  border-radius: 10.938rem;
-  box-shadow: .625rem .313rem .625rem black;
+.cert-image-google {
+  width: 9rem;
+  height: 3.125rem;
+}
+.cert-image-aws {
+  width: 5.5rem;
+  height: 3.125rem;
+}
+.cert-image-meta {
+  width: 10rem;
+  height: 2rem;
+}
+
+.port-section {
+  border-bottom: solid 0.1rem black;
+  padding-bottom: 2rem;
+  color: #00001a;
 }
 
 .port-container {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  color: white;
+}
+
+.port-card {
+  background-color: white;
+  color: #00001a;
+  width: 20rem;
+  height: 20rem;
+  box-shadow: 0.5rem 0.5rem 1rem #bfbfbf;
+  border-radius: 11rem;
+  text-align: center;
+}
+
+.port-link {
+  text-decoration: none;
+  color: #00001a;
+  font-size: 1.3rem;
 }
 
 .port-image {
-  width: 3.125rem;
-  margin: 1.563rem;
+  width: 2rem;
+  margin-top: 7rem;
 }
 .port-image-crawler {
   width: 8rem;
 
+.port-image-crawler {
+  margin-top: 0.5rem;
+  width: 7rem;
 }
 
-.port-link {
-  color: navy;
+.footer-section {
+  display: flex;
+  flex-direction: column;
 }
 
-footer {
-  background-color: white;
-  color: #1c1d25;
-  text-align: center;
-  padding: 5rem;
+.socials-footer {
+  display: flex;
+}
+
+.social-icon {
+  margin: 1rem;
 }
