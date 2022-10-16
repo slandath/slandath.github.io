@@ -226,13 +226,13 @@ p {
 }
 
 .port-card {
-  width: 350px;
-  height: 350px;
-  margin: 10px;
+  width: 21.875rem;
+  height: 21.875rem;
+  margin: .625rem;
   background-color: white;
   color: #1c1d25;
-  border-radius: 21.875rem;
-  box-shadow: 10px 5px 10px black;
+  border-radius: 10.938rem;
+  box-shadow: .625rem .313rem .625rem black;
 }
 
 .port-container {
@@ -241,13 +241,12 @@ p {
 }
 
 .port-image {
-  margin-top: 25px;
-  width: 100px;
+  width: 9.375rem;
 }
 
-.port-image-spider {
-  margin-top: 25px;
-  width: 100px;
+.port-image-waiting {
+  width: 3.125rem;
+  margin: 1.563rem;
 }
 
 .port-link {
@@ -258,5 +257,5 @@ footer {
   background-color: white;
   color: #1c1d25;
   text-align: center;
-  padding: 80px;
+  padding: 5rem;
 }
