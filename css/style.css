@@ -241,12 +241,12 @@ p {
 }
 
 .port-image {
-  width: 9.375rem;
-}
-
-.port-image-waiting {
   width: 3.125rem;
   margin: 1.563rem;
+}
+.port-image-crawler {
+  width: 8rem;
+
 }
 
 .port-link {
