@@ -1,3 +1,78 @@
+@media (max-width: 450px) {
+  .hero-section {
+    display: block;
+    width: 450px;
+  }
+  .about-section {
+    display: block;
+    width: 450px;
+  }
+  .job-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 4.5rem;
+  }
+
+  .job-card {
+    display: grid;
+    grid-column: 1 / span 1;
+    margin: 1rem;
+    justify-content: center;
+    padding-bottom: 1rem;
+  }
+
+  .job-image-frg {
+    margin-left: 1.4rem;
+  }
+
+  .cert-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 4.5rem;
+  }
+
+  .cert-card {
+    display: grid;
+    grid-column: 1 / span 1;
+    margin: 1rem;
+    justify-content: center;
+  }
+
+  .cert-image-google {
+    margin-left: 2rem;
+  }
+
+  .cert-image-aws {
+    margin-left: 3.75rem;
+  }
+
+  .cert-image-meta {
+    margin-left: 1.5rem;
+  }
+
+  .port-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 2.75rem;
+  }
+
+  .port-card {
+    display: grid;
+    grid-column: 1 / span 1;
+    margin: 1rem;
+    justify-content: center;
+    padding-bottom: 4rem;
+  }
+
+  .port-image {
+    margin-left: 2.5rem;
+  }
+
+  .port-image-crawler {
+    margin-left: 5.5rem;
+  }
+
+}
 body {
   margin: 0;
   font-family: "Inter Tight", sans-serif;
@@ -11,7 +86,6 @@ a {
 }
 
 .container {
-  background-color: white;
   display: grid;
   grid-row-gap: 2rem;
 }
@@ -22,21 +96,15 @@ a {
 }
 
 .hero-text > h1 {
+  font-size: 4rem;
   color: #00001a;
   text-decoration: none;
 }
 
 .hero-text > p {
+  font-size: 1.5rem;
   color: #00001a;
   text-decoration: none;
-}
-
-.button {
-  color: white;
-  background-color: #cc5200;
-  width: 5rem;
-  border-radius: 2.5rem;
-  text-align: center;
 }
 
 .about-section {
@@ -47,6 +115,14 @@ a {
 
 .information {
   grid-column: 1 / span 3;
+}
+
+.information > h2 {
+  padding-bottom: 1rem;
+}
+
+.information > p {
+  font-size: 1.25rem;
 }
 
 .headshot {
@@ -61,26 +137,39 @@ a {
   border-bottom: solid 0.1rem black;
 }
 
+.experience-section > h2 {
+  padding-bottom: 1rem;
+}
+
 .job-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: 0 0 2rem 0;
-  justify-items: center;
+  justify-items: space-between;
 }
 
 .job-card {
   background-color: white;
-  width: 18rem;
+  width: 16rem;
   color: #00001a;
-  border-radius: 2rem;
+  border-radius: 3rem;
+  margin: 1rem;
   text-align: center;
-  box-shadow: 0.5rem 0.5rem 1rem #bfbfbf;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .job-link {
   text-decoration: none;
   color: #00001a;
   font-size: 1.3rem;
+}
+
+.job-link:hover {
+  color: #1e90ff;
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-decoration: none;
 }
 
 .job-image {
@@ -102,6 +191,10 @@ a {
   padding-bottom: 2rem;
 }
 
+.cert-section > h2 {
+  padding-bottom: 1rem;
+}
+
 .cert-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -111,7 +204,8 @@ a {
 .cert-card {
   width: 16rem;
   border-radius: 0.5rem;
-  box-shadow: 0.5rem 0.5rem 1rem #bfbfbf;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   text-align: center;
   padding: 1.5rem;
 }
@@ -120,6 +214,12 @@ a {
   text-decoration: none;
   color: #00001a;
   font-size: 1.3rem;
+}
+
+.cert-link:hover {
+  color: #1e90ff;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .cert-image-google {
@@ -141,6 +241,10 @@ a {
   color: #00001a;
 }
 
+.port-section > h2 {
+  padding-bottom: 1rem;
+}
+
 .port-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -153,7 +257,8 @@ a {
   color: #00001a;
   width: 20rem;
   height: 20rem;
-  box-shadow: 0.5rem 0.5rem 1rem #bfbfbf;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   border-radius: 11rem;
   text-align: center;
 }
@@ -164,12 +269,16 @@ a {
   font-size: 1.3rem;
 }
 
+.port-link:hover {
+  color: #1e90ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .port-image {
   width: 2rem;
   margin-top: 7rem;
 }
-.port-image-crawler {
-  width: 8rem;
 
 .port-image-crawler {
   margin-top: 0.5rem;
