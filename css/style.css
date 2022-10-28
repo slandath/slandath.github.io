@@ -81,20 +81,38 @@ a {
 }
 
 .hero-section {
-  color: #00001a;
+  background-color: #00001a;
+  height: 100vh;
   border-bottom: solid 0.1rem black;
   padding: 1rem;
 }
 
 .hero-text > h1 {
   font-size: 4rem;
-  color: #00001a;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .hero-text > p {
   font-size: 1.5rem;
-  color: #00001a;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button {
+  background-color: #ff6933;
+  margin-top: 1rem;
+  padding: .8rem;
+  border-radius: 6rem;
+}
+
+.button > a {
+  color: white;
+  font-size: 1.5rem;
+}
+.button > a:hover {
+  font-weight: bold;
+  color: white;
   text-decoration: none;
 }
 
@@ -234,7 +252,6 @@ a {
 
 .port-section {
   justify-items: center;
-  border-bottom: solid 0.1rem black;
   padding: 1rem;
   color: #00001a;
 }
@@ -287,11 +304,13 @@ a {
 .footer-section {
   display: flex;
   flex-direction: column;
+  background-color: #00001a;
 }
 
 .contact-text {
+  margin-top: 1rem;
   text-align: center;
-  color: #00001a;
+  color: #ffffff
 }
 
 .socials-footer {
@@ -306,6 +325,10 @@ a {
 
   .hero-section {
     display: block;
+  }
+  .button{
+    display: block;
+    margin: 0 auto;
   }
   .about-section {
     display: block;
