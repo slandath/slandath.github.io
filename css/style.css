@@ -330,6 +330,10 @@ a {
   width: 30%;
   margin: 0 auto;
 }
+.port-image-hangman {
+  width: 20%;
+  margin: 0 auto;
+}
 
 .footer-section {
   display: flex;
