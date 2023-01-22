@@ -71,8 +71,8 @@ body {
   font-family: "Inter Tight", sans-serif;
   font-family: "Open Sans", sans-serif;
   color: #00001a;
-  display: grid;
-  grid-row-gap: 2rem;
+  max-width: 1440px;
+  margin: 0 auto !important;
 }
 
 a {
@@ -81,62 +81,68 @@ a {
 }
 
 .hero-section {
-  background-color: #00001a;
-  height: 100vh;
+  height: 16rem;
   border-bottom: solid 0.1rem black;
   padding: 1rem;
 }
 
 .hero-text > h1 {
   font-size: 4rem;
-  color: #ffffff;
   text-decoration: none;
 }
 
 .hero-text > p {
   font-size: 1.5rem;
-  color: #ffffff;
   text-decoration: none;
 }
 
+.btn-container {
+  display: flex;
+  justify-content: left;
+}
+
 .button {
-    background-color: #e86100;
-    border: 1px solid transparent;
-    border-radius: .75rem;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    cursor: pointer;
-    flex: 0 0 auto;
-    font-size: 1.125rem;
-    font-weight: 600;
-    line-height: 1.5rem;
-    padding: .75rem 1.2rem;
-    text-align: center;
-    text-decoration: none #6B7280 solid;
-    transition-duration: .2s;
-    transition-property: background-color,border-color,color,fill,stroke;
-    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    width: auto;
+  background-color: #e86100;
+  border: 1px solid transparent;
+  border-radius: 0.75rem;
+  text-align: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: 0.75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6b7280 solid;
+  transition-duration: 0.2s;
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  margin: 0.5rem;
+}
+
+.button:hover {
+  background-color: #374151;
+}
+
+.button:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 0.75rem 1.5rem;
   }
-  
-  .button:hover {
-    background-color: #374151;
-  }
-  
-  .button:focus {
-    box-shadow: none;
-    outline: 2px solid transparent;
-    outline-offset: 2px;
-  }
-  
-  @media (min-width: 768px) {
-    .button {
-      padding: .75rem 1.5rem;
-    }
-  }
+}
 
 .button > a {
   color: white;
@@ -251,7 +257,7 @@ a {
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   text-align: center;
   padding: 1.5rem;
-  margin: .75rem;
+  margin: 0.75rem;
 }
 
 .cert-link {
@@ -269,7 +275,6 @@ a {
 .cert-image-google {
   width: 100%;
   margin: auto;
-
 }
 .cert-image-aws {
   width: 50%;
@@ -325,6 +330,10 @@ a {
   width: 10%;
   margin: 0 auto;
 }
+.port-image-dci {
+  width: 50%;
+  margin: 0 auto;
+}
 
 .port-image-crawler {
   width: 30%;
@@ -344,7 +353,7 @@ a {
 .contact-text {
   margin-top: 1rem;
   text-align: center;
-  color: #ffffff
+  color: #ffffff;
 }
 
 .socials-footer {
@@ -356,20 +365,25 @@ a {
   margin: 1rem;
 }
 @media (max-width: 50em) {
+  .btn-container {
+    display: none;
+  }
 
   .hero-section {
     display: block;
   }
-  .button{
+  .button {
     display: block;
     margin: 0 auto;
   }
   .about-section {
     display: block;
   }
-h1, h2, p {
-  text-align: center;
-}
+  h1,
+  h2,
+  p {
+    text-align: center;
+  }
 
   .headshot {
     max-width: 25%;
@@ -407,5 +421,4 @@ h1, h2, p {
     width: 10%;
     margin-top: 1rem;
   }
-
 }
