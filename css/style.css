@@ -71,7 +71,7 @@ body {
   font-family: "Inter Tight", sans-serif;
   font-family: "Open Sans", sans-serif;
   color: #00001a;
-  max-width: 1440px;
+  max-width: 1280px;
   margin: 0 auto !important;
 }
 
@@ -153,14 +153,11 @@ a {
 }
 
 .about-section {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   border-bottom: solid 0.1rem black;
   padding: 1rem;
-}
-
-.information {
-  grid-column: 1 / span 3;
+  justify-content: center;
+  align-items: center;
 }
 
 .information > h2 {
@@ -168,12 +165,16 @@ a {
 }
 
 .information > p {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
 }
 
 .headshot {
-  width: 60%;
-  border-radius: 100%;
+  border-radius: 50%;
+}
+
+.headshot-container {
+margin-left: 1rem;
+margin-right: 1rem;
 }
 
 .experience-section {
@@ -298,6 +299,7 @@ a {
 .port-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  column-gap: .5rem;
   justify-items: center;
   color: white;
 }
@@ -307,11 +309,24 @@ a {
   flex-direction: column;
   justify-content: center;
   color: #00001a;
-  width: 20rem;
+  width: 16rem;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   border-radius: 3rem;
   text-align: center;
+}
+
+.port-card-crawler, .port-card-wordle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #00001a;
+  width: 16rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 3rem;
+  text-align: center;
+  padding-top: .75rem;
 }
 
 .port-link {
@@ -368,7 +383,7 @@ a {
 .social-icon {
   margin: 1rem;
 }
-@media (max-width: 50em) {
+@media (max-width: 62.5em) {
   .btn-container {
     display: none;
   }
@@ -385,12 +400,13 @@ a {
   }
   h1,
   h2,
+  h5,
   p {
     text-align: center;
   }
 
   .headshot {
-    max-width: 25%;
+    max-width: 50%;
     margin: 0 auto;
     border-radius: 100%;
   }
