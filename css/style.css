@@ -305,28 +305,16 @@ margin-right: 1rem;
 }
 
 .port-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: #00001a;
-  width: 16rem;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-  border-radius: 3rem;
-  text-align: center;
-}
-
-.port-card-crawler, .port-card-wordle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: #00001a;
-  width: 16rem;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-  border-radius: 3rem;
-  text-align: center;
   padding-top: .75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #00001a;
+  width: 16rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 3rem;
+  text-align: center;
 }
 
 .port-link {
@@ -383,7 +371,7 @@ margin-right: 1rem;
 .social-icon {
   margin: 1rem;
 }
-@media (max-width: 62.5em) {
+@media (max-width: 68.75rem) {
   .btn-container {
     display: none;
   }
