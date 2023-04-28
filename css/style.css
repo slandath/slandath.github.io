@@ -290,6 +290,7 @@ margin-right: 1rem;
   justify-items: center;
   padding: 1rem;
   color: #00001a;
+  border-bottom: solid 0.1rem black;
 }
 
 .port-section > h2 {
@@ -302,6 +303,7 @@ margin-right: 1rem;
   column-gap: .5rem;
   justify-items: center;
   color: white;
+  padding-bottom: 1rem;
 }
 
 .port-card {
@@ -347,6 +349,59 @@ margin-right: 1rem;
   margin: 0 auto;
 }
 .port-image-wordle {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.tool-section {
+  justify-items: center;
+  padding: 1rem;
+  color: #00001a;
+  border-bottom: solid 0.1rem black;
+}
+
+.tool-section > h2 {
+  padding-bottom: 1rem;
+}
+
+.tool-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: .5rem;
+  justify-items: center;
+  color: white;
+}
+
+.tool-card {
+  padding-top: .75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #00001a;
+  width: 16rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: .5rem;
+  text-align: center;
+}
+
+.tool-card ul {
+  list-style-type: none;
+}
+
+.tool-link {
+  text-decoration: none;
+  color: #00001a;
+  font-size: 1.3rem;
+}
+
+.tool-link:hover {
+  color: #1e90ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.tool-image {
   width: 25%;
   margin: 0 auto;
 }
@@ -426,6 +481,19 @@ margin-right: 1rem;
     margin-bottom: 1rem;
   }
   .port-image {
+    width: 10%;
+    margin-top: 1rem;
+  }
+  .tool-container {
+    display: block;
+  }
+
+  .tool-card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+  }
+  .tool-image {
     width: 10%;
     margin-top: 1rem;
   }
