@@ -66,6 +66,9 @@ svg {
 }
 
 /* Style Start */
+* {
+
+}
 
 body {
   font-family: "Inter Tight", sans-serif;
@@ -84,6 +87,8 @@ a {
   height: 16rem;
   border-bottom: solid 0.1rem black;
   padding: 1rem;
+  background-color: #00001a;
+  color: #FFFFFF;
 }
 
 .hero-text > h1 {
@@ -104,10 +109,8 @@ a {
 .button {
   background-color: #e86100;
   border: 1px solid transparent;
-  border-radius: 0.75rem;
+  border-radius: 1.5rem;
   text-align: center;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   box-sizing: border-box;
   color: #ffffff;
   cursor: pointer;
@@ -129,7 +132,7 @@ a {
 }
 
 .button:hover {
-  background-color: #374151;
+  background-color: #595959;
 }
 
 .button:focus {
@@ -158,6 +161,7 @@ a {
   padding: 1rem;
   justify-content: center;
   align-items: center;
+  background-color: #f2f2f2;
 }
 
 .information > h2 {
@@ -170,6 +174,7 @@ a {
 
 .headshot {
   border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .headshot-container {
@@ -181,6 +186,7 @@ margin-right: 1rem;
   color: #00001a;
   border-bottom: solid 0.1rem black;
   padding: 1rem;
+  background-color: #f2f2f2;
 }
 
 .experience-section > h2 {
@@ -237,6 +243,7 @@ margin-right: 1rem;
 .cert-section {
   border-bottom: solid 0.1rem black;
   padding: 1rem;
+  background-color:#f2f2f2;
 }
 
 .cert-section > h2 {
@@ -291,6 +298,7 @@ margin-right: 1rem;
   padding: 1rem;
   color: #00001a;
   border-bottom: solid 0.1rem black;
+  background-color: #f2f2f2;
 }
 
 .port-section > h2 {
@@ -317,6 +325,7 @@ margin-right: 1rem;
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   border-radius: 3rem;
   text-align: center;
+  background-color: #FFFFFF;
 }
 
 .port-link {
@@ -353,6 +362,7 @@ margin-right: 1rem;
   padding: 1rem;
   color: #00001a;
   border-bottom: solid 0.1rem black;
+  background-color: #f2f2f2;
 }
 
 .tool-section > h2 {
@@ -378,6 +388,7 @@ margin-right: 1rem;
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   border-radius: .5rem;
   text-align: center;
+  background-color: #FFFFFF;
 }
 
 .tool-card ul {
