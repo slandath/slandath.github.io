@@ -70,7 +70,7 @@ body {
   font-family: "Inter Tight", sans-serif;
   font-family: "Open Sans", sans-serif;
   color: #00001a;
-  max-width: 1280px;
+  max-width: 90vw;
   margin: 0 auto !important;
 }
 
@@ -84,7 +84,7 @@ a {
   border-bottom: solid 0.1rem black;
   padding: 1rem;
   background-color: #00001a;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .hero-text > h1 {
@@ -173,11 +173,12 @@ a {
 .headshot {
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  max-width: 350px;
 }
 
 .headshot-container {
-margin-left: 1rem;
-margin-right: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .experience-section {
@@ -240,7 +241,7 @@ margin-right: 1rem;
 .cert-section {
   border-bottom: solid 0.1rem black;
   padding: 1rem;
-  background-color:#f2f2f2;
+  background-color: #f2f2f2;
 }
 
 .cert-section > h2 {
@@ -305,24 +306,25 @@ margin-right: 1rem;
 .port-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  column-gap: .5rem;
+  column-gap: 0.5rem;
   justify-items: center;
   color: white;
   padding-bottom: 1rem;
 }
 
 .port-card {
-  padding-top: .75rem;
+  padding: 0.75rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: #00001a;
-  width: 16rem;
+  width: 15rem;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   border-radius: 3rem;
   text-align: center;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
+  margin-top: 1rem;
 }
 
 .port-link {
@@ -338,23 +340,23 @@ margin-right: 1rem;
 }
 
 .port-image {
-  width: 10%;
+  width: 75px;
   margin: 0 auto;
 }
 .port-image-dci {
-  width: 50%;
+  width: 125px;
   margin: 0 auto;
 }
 .port-image-hangman {
-  width: 20%;
+  width: 75px;
   margin: 0 auto;
 }
 .port-image-wordle {
-  width: 25%;
+  width: 75px;
   margin: 0 auto;
 }
 .port-image-purple {
-  width: 30%;
+  width: 75px;
   margin: 0 auto;
 }
 
@@ -373,13 +375,13 @@ margin-right: 1rem;
 .tool-container {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  column-gap: .5rem;
+  column-gap: 0.5rem;
   justify-items: center;
   color: white;
 }
 
 .tool-card {
-  padding-top: .75rem;
+  padding-top: 0.75rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -387,9 +389,9 @@ margin-right: 1rem;
   width: 16rem;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   text-align: center;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .tool-card ul {
@@ -428,11 +430,11 @@ margin-right: 1rem;
 }
 
 .contact-text a {
-text-decoration: none;
-color: #FFFFFF;
+  text-decoration: none;
+  color: #ffffff;
 }
 .contact-text a:hover {
-color: #e86100;
+  color: #e86100;
 }
 
 .socials-footer {
@@ -443,7 +445,6 @@ color: #e86100;
 .social-icon {
   margin: 1rem;
 }
-
 
 @media (max-width: 68.75rem) {
   .btn-container {
