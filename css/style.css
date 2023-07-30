@@ -339,24 +339,15 @@ a {
   text-decoration: none;
 }
 
-.port-image {
+.port-image,
+.port-image-hangman,
+.port-image-wordle,
+.port-image-purple {
   width: 75px;
   margin: 0 auto;
 }
 .port-image-dci {
   width: 125px;
-  margin: 0 auto;
-}
-.port-image-hangman {
-  width: 75px;
-  margin: 0 auto;
-}
-.port-image-wordle {
-  width: 75px;
-  margin: 0 auto;
-}
-.port-image-purple {
-  width: 75px;
   margin: 0 auto;
 }
 
