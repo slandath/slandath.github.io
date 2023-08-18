@@ -70,7 +70,7 @@ body {
   font-family: "Inter Tight", sans-serif;
   font-family: "Open Sans", sans-serif;
   color: #00001a;
-  max-width: 90vw;
+  max-width: 75vw;
   margin: 0 auto !important;
 }
 
@@ -80,32 +80,29 @@ a {
 }
 
 .hero-section {
-  height: 16rem;
-  border-bottom: solid 0.1rem black;
-  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin: 1rem 0 2rem 0;
+  border-radius: 0.5rem;
+  padding: 2rem;
   background-color: #00001a;
   color: #ffffff;
 }
 
-.hero-text > h1 {
+.hero-text h1 {
   font-size: 4rem;
+  letter-spacing: 0.15rem;
   text-decoration: none;
 }
 
-.hero-text > p {
+.hero-text p {
   font-size: 1.5rem;
   text-decoration: none;
-}
-
-.btn-container {
-  display: flex;
-  justify-content: left;
 }
 
 .button {
   background-color: #e86100;
   border: 1px solid transparent;
-  border-radius: 1.5rem;
+  border-radius: 0.5rem;
   text-align: center;
   box-sizing: border-box;
   color: #ffffff;
@@ -147,8 +144,10 @@ a {
 
 .about-section {
   display: flex;
-  border-bottom: solid 0.1rem black;
-  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin: 1rem 0 2rem 0;
+  border-radius: 0.5rem;
+  padding: 2rem;
   justify-content: center;
   align-items: center;
   background-color: #f2f2f2;
@@ -174,6 +173,7 @@ a {
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   max-width: 350px;
+  margin: 0 5rem 0 5rem;
 }
 
 .headshot-container {
@@ -183,7 +183,9 @@ a {
 
 .experience-section {
   color: #00001a;
-  border-bottom: solid 0.1rem black;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 0.5rem;
+  margin: 1rem 0 2rem 0;
   padding: 1rem;
   background-color: #f2f2f2;
 }
@@ -202,7 +204,7 @@ a {
   background-color: white;
   width: 16rem;
   color: #00001a;
-  border-radius: 2rem;
+  border-radius: 0.5rem;
   margin: 1rem;
   text-align: center;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
@@ -239,7 +241,9 @@ a {
 }
 
 .cert-section {
-  border-bottom: solid 0.1rem black;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin: 1rem 0 2rem 0;
+  border-radius: 0.5rem;
   padding: 1rem;
   background-color: #f2f2f2;
 }
@@ -295,7 +299,9 @@ a {
   justify-items: center;
   padding: 1rem;
   color: #00001a;
-  border-bottom: solid 0.1rem black;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin: 1rem 0 2rem 0;
+  border-radius: 0.5rem;
   background-color: #f2f2f2;
 }
 
@@ -303,17 +309,22 @@ a {
   padding-bottom: 1rem;
 }
 
+.port-section h3 {
+  margin-top: 1rem;
+}
+
 .port-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   column-gap: 0.5rem;
+  row-gap: 1rem;
   justify-items: center;
   color: white;
   padding-bottom: 1rem;
 }
 
 .port-card {
-  padding: 0.75rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -321,10 +332,9 @@ a {
   width: 15rem;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-  border-radius: 3rem;
+  border-radius: 0.5rem;
   text-align: center;
   background-color: #ffffff;
-  margin-top: 1rem;
 }
 
 .port-link {
@@ -339,13 +349,12 @@ a {
   text-decoration: none;
 }
 
-.port-image,
-.port-image-hangman,
-.port-image-wordle,
-.port-image-purple {
-  width: 75px;
+.port-image {
+  max-width: 75px;
+  max-height: 75px;
   margin: 0 auto;
 }
+
 .port-image-dci {
   width: 125px;
   margin: 0 auto;
@@ -355,7 +364,9 @@ a {
   justify-items: center;
   padding: 1rem;
   color: #00001a;
-  border-bottom: solid 0.1rem black;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin: 1rem 0 1rem 0;
+  border-radius: 0.5rem;
   background-color: #f2f2f2;
 }
 
@@ -412,6 +423,9 @@ a {
   background-color: #00001a;
   text-decoration: none;
   color: white;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin: 1rem 0 0 0;
+  border-radius: 0.5rem;
 }
 
 .contact-text {
