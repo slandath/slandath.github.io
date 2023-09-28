@@ -15,8 +15,8 @@
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role="list"],
-ol[role="list"] {
+ul[role='list'],
+ol[role='list'] {
   list-style: none;
 }
 
@@ -67,8 +67,8 @@ svg {
 
 /* Style Start */
 body {
-  font-family: "Inter Tight", sans-serif;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Inter Tight', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #00001a;
   max-width: 75vw;
   margin: 0 auto !important;
@@ -505,7 +505,7 @@ a {
     margin-bottom: 1rem;
   }
   .port-image {
-    width: 10%;
+    width: 50%;
     margin-top: 1rem;
   }
   .tool-container {
