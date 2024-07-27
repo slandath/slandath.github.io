@@ -27,8 +27,8 @@ I am an experienced Project Manager, Product Owner, and Scrum Master, specializi
 
 #### Projects Coordinator
 
-* Supported open-source software projects
-* Developed best practices and resources for the PMO
+* Supported open-source software projects.
+* Developed best practices and resources for the PMO.
 
 #### Projects
 
@@ -43,11 +43,11 @@ I am an experienced Project Manager, Product Owner, and Scrum Master, specializi
 
 #### IT Project Manager
 
-* Product owner for pharmacy serialization software
-  * Achieved 80% increase in customer satisfaction by overhauling onboarding process
-* Managed enterprise serialization software projects
-  * Reduced average project length by 75% through project plan streamlining
-  * Successfully unblocked and closed 13 projects within 30 days, contributing to $400K in ARR gain
+* Product owner for pharmacy serialization software.
+  * Achieved 80% increase in customer satisfaction by overhauling onboarding process.
+* Managed enterprise serialization software projects.
+  * Reduced average project length by 75% through project plan streamlining.
+  * Successfully unblocked and closed 13 projects within 30 days, contributing to $400K in ARR gain.
 
 #### Projects
 * OneScan Enterprise
@@ -57,9 +57,9 @@ I am an experienced Project Manager, Product Owner, and Scrum Master, specializi
 
 #### Technology Manager
 
-* Oversaw planning and management of software integration projects for HR professionals
-* Delivered software demonstrations for sales leads and clients
-* Administered the background screening software platform
+* Oversaw planning and management of software integration projects for HR professionals.
+* Delivered software demonstrations for sales leads and clients.
+* Administered the background screening software platform.
 
 #### Projects
 
@@ -80,11 +80,11 @@ Bachelor of Arts, Philosophy
 
 ### Project Management
 
-ScrumMaster, Scrum Product Owner, Project Planning, Waterfall Methodology, Smartsheets, ClickUp
+ClickUp, Project Planning, ScrumMaster, Scrum Product Owner, SmartSheets, Waterfall Methodology
 
 ### Software Development
 
-Agile, Kanban, Jira, Trello
+Agile, Jira, Kanban, Trello
 
 ### Web Technologies
 
