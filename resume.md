@@ -1,3 +1,4 @@
+---
 layout: page
 title: "Resume"
 permalink: https://slandath.github.io/resume
