@@ -1,3 +1,7 @@
+layout: page
+title: "Resume"
+permalink: https://slandath.github.io/resume
+---
 # Tom Slanda, CSM, CSPO
 
 tom.slanda@gmail.com | linkedin.com/in/tomslanda | slandath.github.io
