@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Resume
-permalink: https://slandath.github.io/resume
 ---
 # Tom Slanda, CSM, CSPO
 
