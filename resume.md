@@ -23,7 +23,7 @@ I am an experienced Project Manager, Product Owner, and Scrum Master, specializi
 
 ## Work Experience
 
-### The Linux Foundation (March 2024 to Present)
+### **The Linux Foundation** (March 2024 to Present)
 
 #### Projects Coordinator
 
@@ -39,12 +39,12 @@ I am an experienced Project Manager, Product Owner, and Scrum Master, specializi
 * Tazama
   * An open-source, real-time transaction monitoring software.
 
-### LSPedia (June 2023 to March 2024)
+### **LSPedia** (June 2023 to March 2024)
 
 #### IT Project Manager
 
 * Product owner for pharmacy serialization software.
-  * Achieved 80% increase in customer satisfaction by overhauling onboarding process.
+  * Achieved 80% increase in customer satisfaction by overhauling the onboarding process.
 * Managed enterprise serialization software projects.
   * Reduced average project length by 75% through project plan streamlining.
   * Successfully unblocked and closed 13 projects within 30 days, contributing to $400K in ARR gain.
@@ -53,7 +53,7 @@ I am an experienced Project Manager, Product Owner, and Scrum Master, specializi
 * OneScan Enterprise
 * OneScan PharmacyPro
 
-### The Orsus Group (September 2015 to May 2023)
+### **The Orsus Group** (September 2015 to May 2023)
 
 #### Technology Manager
 
@@ -70,7 +70,7 @@ I am an experienced Project Manager, Product Owner, and Scrum Master, specializi
 
 ## Education
 
-### Michigan State University (East Lansing, Michigan)
+### **Michigan State University** (East Lansing, Michigan)
 
 Bachelor of Arts, Philosophy
 
@@ -78,14 +78,14 @@ Bachelor of Arts, Philosophy
 
 ## Skills
 
-### Project Management
+### **Project Management**
 
 ClickUp, Project Planning, ScrumMaster, Scrum Product Owner, SmartSheets, Waterfall Methodology
 
-### Software Development
+### **Software Development**
 
 Agile, Jira, Kanban, Trello
 
-### Web Technologies
+### **Web Technologies**
 
 Astro, Bash, Bootstrap, Bulma, CSS, Express, Fastify, Git, HTML, JSON, JavaScript, Laravel, Markdown, Material UI, Node.js, PHP, REST API, React, SQL, Sass, Tailwind CSS, TypeScript, XML
