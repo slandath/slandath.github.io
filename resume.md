@@ -4,7 +4,7 @@ title: Resume
 ---
 # Tom Slanda, CSM, CSPO
 
-[tom.slanda@gmail.com](tom.slanda@gmail.com) | [linkedin.com/in/tomslanda](linkedin.com/in/tomslanda) | [slandath.github.io](slandath.github.io)
+[Email](tom.slanda@gmail.com)  |  [LinkedIn](linkedin.com/in/tomslanda)  |  [Website](slandath.github.io)
 
 ## Professional Summary
 
