@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: resume
 title: Tom Slanda Resume
 ---
 # Tom Slanda, CSM, CSPO
