@@ -1,11 +1,8 @@
-<article class="message is-dark" id="about-me">
-    <div class="message-header is-size-3">
-        <h2>About Me</h2>
-    </div>
-    <div class="message-body">
-        <h3 class="is-size-4">Hello!&nbsp; My name is Tom Slanda.</h3>
-        <p class="">I am an experienced Project Manager, Product Owner and Scrum Master,
-            specializing in open source software, software-as-a-service (SaaS) and web technologies.</p>
-        <p class=""> My last name rhymes with &#128060;.</p>
-    </div>
-</article>
+{% capture about-me %}
+<p class="is-size-4">Hello!&nbsp; My name is Tom Slanda.</p>
+<p>I am an experienced Project Manager, Product Owner and Scrum Master,
+    specializing in open source software, software-as-a-service (SaaS) and web technologies.</p>
+<p> My last name rhymes with &#128060;.</p>
+{% endcapture %}
+
+{% include message.html title="About Me" content=about-me %}

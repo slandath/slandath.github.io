@@ -1,82 +1,79 @@
-<article class="message is-dark" id="experience">
-    <div class="message-header is-size-3">
-        <h2>Experience</h2>
-    </div>
-    <div class="message-body">
-        <div class="columns">
-            <div class="column">
-                <div class="card">
-                    <header class="card-header">
-                        <h3 class="card-header-title is-size-5 is-centered">
-                            Projects
-                            Coordinator
-                        </h3>
-                    </header>
-                    <div
-                        class="card-content has-text-centered is-size-5 has-background-primary-100 has-text-primary-100-invert">
-                        <figure>
-                            <img src="https://raw.githubusercontent.com/slandath/images/main/resized/lf.jpg"
-                                alt="The Linux Foundation logo" />
-                        </figure>
-                        <div class="block"></div>
-                        <a class="job-link" href="https://www.linuxfoundation.org/" target="_blank">Website</a>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                    <header class="card-header">
-                        <h3 class="card-header-title is-size-5 is-centered">
-                            IT Project Manager
-                        </h3>
-                    </header>
-                    <div
-                        class="card-content has-text-centered is-size-5 has-background-primary-100 has-text-primary-100-invert">
-                        <figure>
-                            <img src="https://raw.githubusercontent.com/slandath/images/main/resized/lspedia.png"
-                                alt="LSPedia logo" />
-                        </figure>
-                        <div class="block"></div>
-                        <a class="job-link" href="https://www.lspedia.com/" target="_blank">Website</a>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                    <header class="card-header">
-                        <h3 class="card-header-title is-size-5 is-centered">
-                            Technology Manager
-                        </h3>
-                    </header>
-                    <div
-                        class="card-content has-text-centered is-size-5 has-background-primary-100 has-text-primary-100-invert">
-                        <figure>
-                            <img src="https://raw.githubusercontent.com/slandath/images/main/resized/cellohr.png"
-                                alt="cellohr logo" />
-                        </figure>
-                        <div class="block"></div>
-                        <a class="job-link" href="https://www.cellohr.com/" target="_blank">Website</a>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                    <header class="card-header">
-                        <h3 class="card-header-title is-size-5 is-centered">
-                            Technology Manager
-                        </h3>
-                    </header>
-                    <div
-                        class="card-content has-text-centered is-size-5 has-background-primary-100 has-text-primary-100-invert">
-                        <figure>
-                            <img src="https://raw.githubusercontent.com/slandath/images/main/resized/Orsus.png"
-                                alt="orsus logo" />
-                        </figure>
-                        <div class="block"></div>
-                        <a class="job-link" href="https://www.theorsusgroup.com/" target="_blank">Website</a>
-                    </div>
-                </div>
+{% capture experience %}
+<div class="columns">
+    <div class="column">
+        <div class="card">
+            <header class="card-header">
+                <h3 class="card-header-title is-size-5 is-centered">
+                    Projects
+                    Coordinator
+                </h3>
+            </header>
+            <div
+                class="card-content has-text-centered is-size-5 has-background-primary-100 has-text-primary-100-invert">
+                <figure>
+                    <img src="https://raw.githubusercontent.com/slandath/images/main/resized/lf.jpg"
+                        alt="The Linux Foundation logo" />
+                </figure>
+                <div class="block"></div>
+                <a class="job-link" href="https://www.linuxfoundation.org/" target="_blank">Website</a>
             </div>
         </div>
     </div>
-</article>
+    <div class="column">
+        <div class="card">
+            <header class="card-header">
+                <h3 class="card-header-title is-size-5 is-centered">
+                    IT Project Manager
+                </h3>
+            </header>
+            <div
+                class="card-content has-text-centered is-size-5 has-background-primary-100 has-text-primary-100-invert">
+                <figure>
+                    <img src="https://raw.githubusercontent.com/slandath/images/main/resized/lspedia.png"
+                        alt="LSPedia logo" />
+                </figure>
+                <div class="block"></div>
+                <a class="job-link" href="https://www.lspedia.com/" target="_blank">Website</a>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <header class="card-header">
+                <h3 class="card-header-title is-size-5 is-centered">
+                    Technology Manager
+                </h3>
+            </header>
+            <div
+                class="card-content has-text-centered is-size-5 has-background-primary-100 has-text-primary-100-invert">
+                <figure>
+                    <img src="https://raw.githubusercontent.com/slandath/images/main/resized/cellohr.png"
+                        alt="cellohr logo" />
+                </figure>
+                <div class="block"></div>
+                <a class="job-link" href="https://www.cellohr.com/" target="_blank">Website</a>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <header class="card-header">
+                <h3 class="card-header-title is-size-5 is-centered">
+                    Technology Manager
+                </h3>
+            </header>
+            <div
+                class="card-content has-text-centered is-size-5 has-background-primary-100 has-text-primary-100-invert">
+                <figure>
+                    <img src="https://raw.githubusercontent.com/slandath/images/main/resized/Orsus.png"
+                        alt="orsus logo" />
+                </figure>
+                <div class="block"></div>
+                <a class="job-link" href="https://www.theorsusgroup.com/" target="_blank">Website</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endcapture %}
+{% include message.html title="Experience" content=experience %}
