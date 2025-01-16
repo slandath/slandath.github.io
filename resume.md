@@ -4,11 +4,11 @@ title: Tom Slanda Resume
 ---
 # Tom Slanda, CSM, CSPO
 
-[Email](mailto:tom.slanda@gmail.com) [LinkedIn](https://www.linkedin.com/in/tomslanda) [Website](https://slandath.github.io) [Download PDF](./files/Tom%20Slanda%20Resume.pdf)
+[Email](mailto:tom.slanda@gmail.com) | [LinkedIn](https://www.linkedin.com/in/tomslanda) | [Website](https://slandath.github.io) | [Download PDF](./files/Tom%20Slanda%20Resume.pdf)
 
 ## Professional Summary
 
-I am an experienced Project Manager, Product Owner, and Scrum Master, specializing in software development and web technologies.
+I am an experienced Project Manager, Product Owner and Scrum Master, specializing in open source software, software-as-a-service (SaaS) and web technologies.
 
 ---
 
@@ -27,17 +27,22 @@ I am an experienced Project Manager, Product Owner, and Scrum Master, specializi
 
 #### Projects Coordinator
 
-* Supported open-source software projects.
+* Supported open source software project and communities.
 * Developed best practices and resources for the PMO.
 
-#### Projects
+#### Current Projects
 
+* Cloud Foundry
+  * A highly efficient, open source platform for cloud-native application development.
 * High Performance Software Foundation
-  * An open-source, vendor neutral hub for high performance software projects, working groups, events, and training.
+  * An open source, vendor neutral hub for high performance software projects, working groups, events, and training.
 * Open Mainframe Project
   * A focal point for deployment and use of Linux and Open Source in a mainframe computing environment.
+
+#### Past Projects
+
 * Tazama
-  * An open-source, real-time transaction monitoring software.
+  * An open source, real-time transaction monitoring software.
 
 ### **LSPedia** (June 2023 to March 2024)
 
@@ -84,8 +89,8 @@ ClickUp, Project Planning, ScrumMaster, Scrum Product Owner, SmartSheets, Waterf
 
 ### **Software Development**
 
-Agile, Jira, Kanban, Trello
+Agile, GitHub, Jira, Kanban, Trello
 
 ### **Web Technologies**
 
-Astro, Bash, Bootstrap, Bulma, CSS, Express, Fastify, Git, HTML, JSON, JavaScript, Laravel, Markdown, Material UI, Node.js, PHP, REST API, React, SQL, Sass, Tailwind CSS, TypeScript, XML
+Bash, Bootstrap, Bulma, CSS, Express, Git, Hugo, HTML, JSON, JavaScript, Jekyll, Markdown, Node.js, Nuxt, REST API, React, SQL, Tailwind CSS, TypeScript, Vue.js, XML
