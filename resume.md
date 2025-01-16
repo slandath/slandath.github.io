@@ -6,8 +6,8 @@ title: Tom Slanda Resume
 
 | Email | LinkedIn | Website |
 | --- | --- | --- |
-| tom.slanda@gmail.com | www.linkedin.com/in/tomslanda | slandath.github.io |   
-   
+| tom.slanda@gmail.com | www.linkedin.com/in/tomslanda | slandath.github.io |
+
 [Download PDF](./files/Tom%20Slanda%20Resume.pdf)
 
 ## Professional Summary
