@@ -1,5 +1,4 @@
-{% include message.html
-title="Current Projects" %}
+{% capture current-projects %}
 <div class="columns">
     <div class="column">
         <div class="card">
@@ -56,4 +55,6 @@ title="Current Projects" %}
         </div>
     </div>
 </div>
-{% endinclude %}
+{% endcapture %}
+
+{% include message.html title="Current Projects" content=current-projects %}
