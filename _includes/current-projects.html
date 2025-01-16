@@ -1,63 +1,59 @@
-<article class="message is-dark" id="current-projects">
-    <div class="message-header is-size-3">
-        <h2>Current Projects</h2>
-    </div>
-    <div class="message-body">
-        <div class="columns">
-            <div class="column">
-                <div class="card">
-                    <header class="card-header">
-                        <h3 class="card-header-title is-size-5 is-centered">
-                            Cloud Foundry
-                        </h3>
-                    </header>
-                    <div
-                        class="card-content has-text-centered is-size-5 has-background-primary-100 has-text-primary-100-invert">
-                        <figure>
-                            <img src="https://www.cloudfoundry.org/wp-content/uploads/2017/01/CFF_Logo_rgb.png"
-                                alt="Cloud Foundry Logo" />
-                        </figure>
-                        <div class="block"></div>
-                        <a class="job-link" href="https://www.cloudfoundry.org/" target="_blank">Website</a>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                    <header class="card-header">
-                        <h3 class="card-header-title is-size-5 is-centered">
-                            High Performance Software Foundation
-                        </h3>
-                    </header>
-                    <div
-                        class="card-content has-text-centered is-size-5 has-background-primary-100 has-text-primary-100-invert">
-                        <figure>
-                            <img src="https://raw.githubusercontent.com/hpsfoundation/hpsf-logos/55314979f801375ef3ad9073e6f4fc7931ab18cd/Logos/SVG/Horizontal/HPSF_horizontal-tagline-color.svg"
-                                alt="HPSF Logo" />
-                        </figure>
-                        <div class="block"></div>
-                        <a class="job-link" href="https://hpsf.io/" target="_blank">Website</a>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="card">
-                    <header class="card-header">
-                        <h3 class="card-header-title is-size-5 is-centered">
-                            Open Mainframe Project
-                        </h3>
-                    </header>
-                    <div
-                        class="card-content has-text-centered is-size-5 has-background-primary-100 has-text-primary-100-invert">
-                        <figure>
-                            <img src="https://artwork.openmainframeproject.org/other/open-mainframe-project/horizontal/color/open-mainframe-project-horizontal-color.svg"
-                                alt="OMP Logo" />
-                        </figure>
-                        <div class="block"></div>
-                        <a class="job-link" href="https://openmainframeproject.org/" target="_blank">Website</a>
-                    </div>
-                </div>
+{% include message.html
+title="Current Projects" %}
+<div class="columns">
+    <div class="column">
+        <div class="card">
+            <header class="card-header">
+                <h3 class="card-header-title is-size-5 is-centered">
+                    Cloud Foundry
+                </h3>
+            </header>
+            <div
+                class="card-content has-text-centered is-size-5 has-background-primary-100 has-text-primary-100-invert">
+                <figure>
+                    <img src="https://www.cloudfoundry.org/wp-content/uploads/2017/01/CFF_Logo_rgb.png"
+                        alt="Cloud Foundry Logo" />
+                </figure>
+                <div class="block"></div>
+                <a class="job-link" href="https://www.cloudfoundry.org/" target="_blank">Website</a>
             </div>
         </div>
     </div>
-</article>
+    <div class="column">
+        <div class="card">
+            <header class="card-header">
+                <h3 class="card-header-title is-size-5 is-centered">
+                    High Performance Software Foundation
+                </h3>
+            </header>
+            <div
+                class="card-content has-text-centered is-size-5 has-background-primary-100 has-text-primary-100-invert">
+                <figure>
+                    <img src="https://raw.githubusercontent.com/hpsfoundation/hpsf-logos/55314979f801375ef3ad9073e6f4fc7931ab18cd/Logos/SVG/Horizontal/HPSF_horizontal-tagline-color.svg"
+                        alt="HPSF Logo" />
+                </figure>
+                <div class="block"></div>
+                <a class="job-link" href="https://hpsf.io/" target="_blank">Website</a>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <header class="card-header">
+                <h3 class="card-header-title is-size-5 is-centered">
+                    Open Mainframe Project
+                </h3>
+            </header>
+            <div
+                class="card-content has-text-centered is-size-5 has-background-primary-100 has-text-primary-100-invert">
+                <figure>
+                    <img src="https://artwork.openmainframeproject.org/other/open-mainframe-project/horizontal/color/open-mainframe-project-horizontal-color.svg"
+                        alt="OMP Logo" />
+                </figure>
+                <div class="block"></div>
+                <a class="job-link" href="https://openmainframeproject.org/" target="_blank">Website</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endinclude %}
