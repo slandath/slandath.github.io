@@ -1,23 +1,19 @@
 {% capture past-projects %}
 <div class="columns">
     <div class="column is-half is-offset-one-quarter">
-        <div class="card">
-            <header class="card-header">
-                <h3 class="card-header-title is-size-5 is-centered">
-                    Tazama
-                </h3>
-            </header>
-            <div
-                class="card-content has-text-centered is-size-5 has-background-primary-100 has-text-primary-100-invert">
-                <figure>
-                    <img src="https://tazama.org/logo.svg" alt="Tazama Logo" />
-                </figure>
-                <div class="block"></div>
-                <a class="job-link" href="https://tazama.org/" target="_blank">Website</a>
-            </div>
+        {% capture tazama-card %}
+        <div class="card-content has-text-centered is-size-5 has-background-primary-100 has-text-primary-100-invert">
+            <figure>
+                <img src="https://tazama.org/logo.svg" alt="Tazama Logo" />
+            </figure>
+            <div class="block"></div>
+            <a class="job-link" href="https://tazama.org/" target="_blank">Website</a>
         </div>
+        {% endcapture %}
     </div>
+</div>
 </div>
 {% endcapture %}
 
-{% include message.html title="Past Projects" content=past-projects %}
+{% include Card.html card-title="Tazama" card-content=tazama-card %}
+{% include Message.html title="Past Projects" content=past-projects %}
