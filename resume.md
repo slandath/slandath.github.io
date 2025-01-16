@@ -4,23 +4,9 @@ title: Tom Slanda Resume
 ---
 # Tom Slanda, CSM, CSPO
 
-<style>
-.table-bordered {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-.table-bordered th, .table-bordered td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-}
-</style>
-
-| Email | LinkedIn | Website |
-{: .table-bordered}
-| --- | --- | --- |
-| tom.slanda@gmail.com | www.linkedin.com/in/tomslanda | slandath.github.io |
+**Email**: [tom.slanda@gmail.com](mailto:tom.slanda@gmail.com)  
+**LinkedIn**: [www.linkedin.com/in/tomslanda](https://www.linkedin.com/in/tomslanda)  
+**Website**: [slandath.github.io](https://slandath.github.io)  
 
 [Download PDF](./files/Tom%20Slanda%20Resume.pdf)
 
