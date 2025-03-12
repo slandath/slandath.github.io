@@ -1,60 +1,36 @@
 {% capture current-projects %}
-<div class="columns">
-    <div class="column">
+<section>
+    <h2 class="content-title">Current Projects</h2>
+    <div class="card-container">
         <div class="card">
-            <header class="card-header">
-                <h3 class="card-header-title is-size-5 is-centered">
-                    Cloud Foundry
-                </h3>
-            </header>
-            <div
-                class="card-content has-text-centered is-size-5 has-background-primary-100 has-text-primary-100-invert">
-                <figure>
-                    <img src="https://www.cloudfoundry.org/wp-content/uploads/2017/01/CFF_Logo_rgb.png"
-                        alt="Cloud Foundry Logo" />
-                </figure>
-                <div class="block"></div>
-                <a class="job-link" href="https://www.cloudfoundry.org/" target="_blank">Website</a>
+            <div class="card-heading">
+                <h3>Cloud Foundry</h3>
+            </div>
+            <div class="card-body">
+                <p>Cloud Foundry provides a highly efficient, open source platform for cloud-native application
+                    development.</p>
+                <br />
+                <a href="https://www.cloudfoundry.org/" target="_blank">Website</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-heading">
+                <h3>Card Heading 2</h3>
+            </div>
+            <div class="card-body">
+                <p>Card Body</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-heading">
+                <h3>Card Heading 3</h3>
+            </div>
+            <div class="card-body">
+                <p>Card Body</p>
             </div>
         </div>
     </div>
-    <div class="column">
-        <div class="card">
-            <header class="card-header">
-                <h3 class="card-header-title is-size-5 is-centered">
-                    High Performance Software Foundation
-                </h3>
-            </header>
-            <div
-                class="card-content has-text-centered is-size-5 has-background-primary-100 has-text-primary-100-invert">
-                <figure>
-                    <img src="https://raw.githubusercontent.com/hpsfoundation/hpsf-logos/55314979f801375ef3ad9073e6f4fc7931ab18cd/Logos/SVG/Horizontal/HPSF_horizontal-tagline-color.svg"
-                        alt="HPSF Logo" />
-                </figure>
-                <div class="block"></div>
-                <a class="job-link" href="https://hpsf.io/" target="_blank">Website</a>
-            </div>
-        </div>
-    </div>
-    <div class="column">
-        <div class="card">
-            <header class="card-header">
-                <h3 class="card-header-title is-size-5 is-centered">
-                    Open Mainframe Project
-                </h3>
-            </header>
-            <div
-                class="card-content has-text-centered is-size-5 has-background-primary-100 has-text-primary-100-invert">
-                <figure>
-                    <img src="https://artwork.openmainframeproject.org/other/open-mainframe-project/horizontal/color/open-mainframe-project-horizontal-color.svg"
-                        alt="OMP Logo" />
-                </figure>
-                <div class="block"></div>
-                <a class="job-link" href="https://openmainframeproject.org/" target="_blank">Website</a>
-            </div>
-        </div>
-    </div>
-</div>
+</section>
 {% endcapture %}
 
 {% include message-component.html title="Current Projects" content=current-projects %}

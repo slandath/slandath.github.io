@@ -1,0 +1,96 @@
+:root {
+  --charcoal-gray: hsla(0, 0%, 24%, 1);
+  --silver: hsla(200, 0%, 77%, 1);
+  --emerald: hsla(166, 100%, 20%, 1);
+  --blue: hsla(186, 100%, 25%, 1);
+  --green: hsla(146, 100%, 26%, 1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: var(--charcoal-gray);
+  color: var(--silver);
+}
+
+h1 {
+  text-shadow: 0 0 0.5rem black;
+  font-size: 2.5rem;
+}
+
+section {
+  padding: 1rem;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  color: black;
+  line-height: 1.25rem;
+  border-radius: 0.5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+}
+
+.card-heading {
+  background-color: var(--blue);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.438rem 0.438rem 0 0;
+  border: 1px solid black;
+}
+
+.card-body {
+  background-color: white;
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-top: none;
+  border-radius: 0 0 0.438rem 0.438rem;
+}
+
+.card-body > a {
+  color: black;
+}
+
+.content-container {
+  background-color: var(--silver);
+  padding: 1rem;
+  color: black;
+  margin: 1rem 1rem;
+  line-height: 1.25rem;
+  border-radius: 0.5rem;
+}
+
+.content-title {
+  font-size: 1.75rem;
+  margin-left: 1rem;
+}
+
+.past-projects {
+  padding: 1rem;
+}
+
+.hero-banner {
+  background: var(--emerald);
+  text-align: center;
+  padding: 1rem;
+}
+
+.navbar {
+  display: flex;
+  text-decoration: none;
+  padding-top: 3rem;
+  justify-content: space-around;
+  list-style: none;
+}
