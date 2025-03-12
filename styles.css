@@ -1,9 +1,10 @@
 :root {
-  --charcoal-gray: hsla(0, 0%, 24%, 1);
+  --charcoal-gray: hsla(0, 0%, 25%, 1);
   --silver: hsla(200, 0%, 77%, 1);
   --emerald: hsla(166, 100%, 20%, 1);
   --blue: hsla(186, 100%, 25%, 1);
   --green: hsla(146, 100%, 26%, 1);
+  --white: hsla(200, 100%, 100%, 1);
 }
 
 * {
@@ -30,7 +31,7 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
   gap: 1rem;
-  padding: 1rem;
+  margin-left: 1rem;
   color: black;
   line-height: 1.25rem;
   border-radius: 0.5rem;
@@ -39,7 +40,6 @@ section {
 .card {
   display: flex;
   flex-direction: column;
-
   text-align: center;
 }
 
@@ -59,22 +59,38 @@ section {
   border-radius: 0 0 0.438rem 0.438rem;
 }
 
-.card-body > a {
+.card-body a {
   color: black;
 }
 
+.card-body img {
+  padding: 1rem 0 1rem 0;
+}
+
 .content-container {
-  background-color: var(--silver);
+  background-color: var(--white);
   padding: 1rem;
   color: black;
-  margin: 1rem 1rem;
+  margin-left: 1rem;
   line-height: 1.25rem;
   border-radius: 0.5rem;
 }
 
-.content-title {
+.message-header > h2 {
   font-size: 1.75rem;
-  margin-left: 1rem;
+  margin: 1rem 0 1rem 1rem;
+}
+
+.navbar li a {
+  color: var(--silver);
+  text-decoration: none;
+  padding: 20px 15px;
+  border-radius: 0.438rem 0.438rem 0 0;
+  transition: background-color 0.3s ease;
+}
+
+.navbar li a:hover {
+  background-color: var(--charcoal-gray);
 }
 
 .past-projects {
