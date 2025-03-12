@@ -19,7 +19,8 @@ body {
 }
 
 h1 {
-  text-shadow: 0 0 0.5rem black;
+  color: var(--white);
+  text-shadow: 0 0 0.5rem var(--silver);
   font-size: 2.5rem;
 }
 
