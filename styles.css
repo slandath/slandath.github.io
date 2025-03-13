@@ -114,6 +114,9 @@ section {
 
 .footer {
   display: flex;
+  background: var(--emerald);
+  text-align: center;
+  padding: 1rem;
   text-decoration: none;
   padding-top: 3rem;
   justify-content: space-around;
