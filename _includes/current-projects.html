@@ -1,37 +1,39 @@
 {% capture current-projects %}
-    <div class="card-container">
-        <div class="card">
-            <div class="card-heading">
-                <h3>Cloud Foundry</h3>
-            </div>
-            <div class="card-body">
-                <p>Cloud Foundry provides a highly efficient, open source platform for cloud-native application
-                    development.</p>
-                <br />
-                <a href="https://www.cloudfoundry.org/" target="_blank">Website</a>
-            </div>
+<div class="card-container">
+    <div class="card">
+        <div class="card-heading">
+            <h3>Cloud Foundry</h3>
         </div>
-        <div class="card">
-            <div class="card-heading">
-                <h3>High Performance Software Foundation</h3>
-            </div>
-            <div class="card-body">
-                <p>HPSF supports projects that advance portable software for diverse hardware by increasing adoption, aiding community growth, and enabling development efforts.</p>
-                <br />
-                <a href="https://hpsf.io/" target="_blank">Website</a>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-heading">
-                <h3>Open Mainframe Project</h3>
-            </div>
-            <div class="card-body">
-                <p>The Open Mainframe Project was founded in 2015, as a focal point for deployment and use of Linux and Open Source in a mainframe computing environment.</p>
-                <br />
-                <a href="https://www.openmainframeproject.org" target="_blank">Website</a>
-            </div>
+        <div class="card-body">
+            <p>Cloud Foundry provides a highly efficient, open source platform for cloud-native application
+                development.</p>
+            <br />
+            <a href="https://www.cloudfoundry.org/" target="_blank">Website</a>
         </div>
     </div>
+    <div class="card">
+        <div class="card-heading">
+            <h3>High Performance Software Foundation</h3>
+        </div>
+        <div class="card-body">
+            <p>HPSF supports projects that advance portable software for diverse hardware by increasing adoption, aiding
+                community growth, and enabling development efforts.</p>
+            <br />
+            <a href="https://hpsf.io/" target="_blank">Website</a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-heading">
+            <h3>Open Mainframe Project</h3>
+        </div>
+        <div class="card-body">
+            <p>The Open Mainframe Project was founded in 2015, as a focal point for deployment and use of Linux and Open
+                Source in a mainframe computing environment.</p>
+            <br />
+            <a href="https://www.openmainframeproject.org" target="_blank">Website</a>
+        </div>
+    </div>
+</div>
 {% endcapture %}
 
-{% include message-component.html title="Current Projects" content=current-projects %}
+{% include message-component.html title="Current Projects" id="current-projects" content=current-projects %}

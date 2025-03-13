@@ -16,5 +16,21 @@
 <body>
     {{content}}
 </body>
+<script>
+    const hamburger = document.querySelector('#hamburger');
+    const navbar = document.querySelector('.navbar');
+    const links = document.querySelectorAll('.navbar a');
+
+    hamburger.addEventListener('click', () => {
+        navbar.classList.toggle('active');
+    });
+
+    // Add event listeners to each nav item
+    links.forEach(item => {
+        item.addEventListener('click', () => {
+            navbar.classList.remove('active'); // Close the menu
+        });
+    });
+</script>
 
 </html>

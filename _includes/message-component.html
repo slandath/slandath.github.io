@@ -1,8 +1,4 @@
-<article class="message is-dark" id="about-me">
-    <div class="message-header is-size-4">
-        <h2>{{ include.title }}</h2>
-    </div>
-    <div class="message-body">
-        {{ include.content }}
-    </div>
-</article>
+<div class="message-header" id={{ include.id }}>
+    <h2>{{ include.title }}</h2>
+    {{ include.content }}
+</div>
