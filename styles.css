@@ -71,6 +71,18 @@ section {
   border-radius: 0.5rem;
 }
 
+.hero-banner {
+  background-color: var(--emerald);
+  text-align: center;
+  padding: 1rem;
+}
+
+.hero-banner h1 {
+  color: var(--white);
+  text-shadow: 0 0 0.5rem var(--charcoal-gray);
+  font-size: 2.5rem;
+}
+
 .message-header > h2 {
   font-size: 1.75rem;
   margin: 1rem 0 1rem 1rem;
@@ -92,18 +104,6 @@ section {
   padding: 1rem;
 }
 
-.hero-banner {
-  background: var(--emerald);
-  text-align: center;
-  padding: 1rem;
-}
-
-.hero-banner h1 {
-  color: var(--white);
-  text-shadow: 0 0 0.5rem var(--silver);
-  font-size: 2.5rem;
-}
-
 .navbar {
   display: flex;
   text-decoration: none;
@@ -114,7 +114,7 @@ section {
 
 .footer {
   display: flex;
-  background: var(--emerald);
+  background-color: var(--emerald);
   text-align: center;
   padding: 1rem;
   text-decoration: none;
