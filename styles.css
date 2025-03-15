@@ -118,14 +118,23 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
   background-color: var(--emerald);
   padding: 1rem;
 }
 
 .hero-banner h1 {
+  width: 100%;
   color: var(--white);
-  text-shadow: 0 0 0.5rem var(--charcoal-gray);
+  text-shadow: 0 0 0.5rem var(--black);
   font-size: 2.5rem;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1080px;
 }
 
 .message-header > h2 {
