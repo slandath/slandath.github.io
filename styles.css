@@ -1,4 +1,5 @@
 :root {
+  /* Colors */
   --hero-color: hsla(159, 42.5%, 47.1%, 1);
   --bg-color: hsla(114, 45.9%, 92.7%, 1);
   --card-heading-color: hsla(140, 61.6%, 85.7%, 1);
@@ -11,6 +12,8 @@
   --border-color: hsla(230, 61%, 83.9%, 1);
   --black: hsla(0, 0%, 0%, 1);
   --white: hsla(200, 100%, 100%, 1);
+
+  /* Border */
   --box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   --border-radius: 0.438rem 0.438rem 0.438rem 0.438rem;
 }
@@ -30,6 +33,7 @@ body {
 html {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
+  scroll-behavior: smooth;
 }
 
 section {
@@ -39,18 +43,6 @@ section {
 .about-me-container {
   display: flex;
   gap: 1rem;
-}
-
-.card-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(332px, 1fr));
-  gap: 1rem;
-  place-items: center;
-  margin: 0 auto;
-  margin-left: 1rem;
-  color: var(--content-font-color);
-  line-height: 1.25rem;
-  border-radius: 0.5rem;
 }
 
 .card {
@@ -64,18 +56,16 @@ section {
   box-shadow: var(--box-shadow);
 }
 
-.card-heading {
-  background-color: var(--card-heading-color);
-  color: var(--card-heading-font-color);
-  padding: 0.5rem;
-  border-radius: 0.438rem 0.438rem 0 0;
-  border: 1px solid transparent;
-  border-bottom: 0.063rem solid var(--hero-color);
-  margin: 0.5rem 0.5rem 0 0.5rem;
-}
-
-.card-heading.font-md {
-  font-size: 0.68rem;
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(332px, 1fr));
+  gap: 1rem;
+  place-items: center;
+  margin: 0 auto;
+  margin-left: 1rem;
+  color: var(--content-font-color);
+  line-height: 1.25rem;
+  border-radius: 0.5rem;
 }
 
 .card-content {
@@ -120,6 +110,20 @@ section {
 
 .card-footer a:hover {
   font-weight: bold;
+}
+
+.card-heading {
+  background-color: var(--card-heading-color);
+  color: var(--card-heading-font-color);
+  padding: 0.5rem;
+  border-radius: 0.438rem 0.438rem 0 0;
+  border: 1px solid transparent;
+  border-bottom: 0.063rem solid var(--hero-color);
+  margin: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.card-heading.font-md {
+  font-size: 0.68rem;
 }
 
 .card-image {
@@ -245,5 +249,11 @@ section {
   .about-me-container {
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
 }
