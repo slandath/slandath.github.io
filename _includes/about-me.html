@@ -1,12 +1,19 @@
 {% capture about-me %}
-<div class="content-container">
-    <p>Hello! My name is Tom Slanda.</p>
-    <br />
-    <p>I am an experienced Project Manager, Product Owner and Scrum Master, specializing in open source
-        software, software-as-a-service (SaaS) and web technologies.</p>
-    <br />
-    <p>My last name rhymes with 🐼.</p>
+<div class="about-me-container">
+    <div class="headshot-container">
+        <img src="https://avatars.githubusercontent.com/u/98270595?v=4" width="250px" alt="headshot">
+    </div>
+
+    <div class="content-container">
+        <p>Hello! My name is <b>Tom</b>.</p>
+        <br />
+        <p>I am an experienced Project Manager, Product Owner and Scrum Master, specializing in open-source
+            software, software-as-a-service (SaaS) and web technologies.</p>
+        <br />
+        <p>My last name rhymes with 🐼.</p>
+    </div>
 </div>
+
 {% endcapture %}
 
 {% include message-component.html title="About Me" id="about-me" content=about-me %}
