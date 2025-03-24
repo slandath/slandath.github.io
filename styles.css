@@ -36,6 +36,11 @@ section {
   padding: 1rem;
 }
 
+.about-me-container {
+  display: flex;
+  gap: 1rem;
+}
+
 .card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(332px, 1fr));
@@ -164,6 +169,16 @@ section {
   gap: 0.5rem;
 }
 
+.headshot-container {
+  padding: 1rem;
+}
+
+.headshot-container img {
+  border: 0.5rem solid var(--hero-color);
+  border-radius: 50%;
+  box-shadow: var(--box-shadow);
+}
+
 .hero-banner {
   display: flex;
   flex-wrap: wrap;
@@ -223,5 +238,12 @@ section {
 @media (max-width: 1200px) {
   .navbar {
     display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  .about-me-container {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
