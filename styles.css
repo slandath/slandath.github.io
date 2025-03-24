@@ -75,13 +75,28 @@ section {
 
 .card-content {
   display: flex;
+  justify-content: center;
   align-items: center;
   background-color: var(--content-color);
   color: var(--content-font-color);
   padding: 0.5rem;
-  border: 1px solid transparent;
+  border: 0.063rem solid transparent;
   margin: 0 0.5rem;
   height: 9.375rem;
+}
+
+.card-content.block {
+  display: block;
+  padding-left: 1rem;
+  text-align: left;
+}
+
+.card-divider {
+  margin: 0 0.5rem;
+  padding: 0.25rem;
+  border-top: 0.063rem solid var(--hero-color);
+  border-bottom: 0.063rem solid var(--hero-color);
+  background-color: var(--card-heading-color);
 }
 
 .card-footer {
@@ -109,7 +124,6 @@ section {
   background-color: var(--content-color);
   margin: 0 0.5rem 0 0.5rem;
   padding: 1rem 0 1rem 0;
-  border-bottom: 0.5rem solid var(--hero-color);
   height: 12.5rem;
 }
 
