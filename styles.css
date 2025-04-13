@@ -1,7 +1,7 @@
 :root {
     /* Colors */
     /* Root Color */
-    --hero-color-hue: 159;
+    --hero-color-hue: 160;
     --hero-color-saturation: 42.5%;
     --hero-color-lightness: 47.1%;
     --hero-color-alpha: 1;
@@ -71,7 +71,7 @@
     --white: hsla(200, 100%, 100%, 1);
 
     /* Border */
-    --box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    --box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     --border-radius: 0.438rem 0.438rem 0.438rem 0.438rem;
 }
 
@@ -236,7 +236,7 @@ section {
 
 .headshot-container img {
     border: 0.5rem solid var(--hero-color);
-    border-radius: 50%;
+    border-radius: 0.5rem;
     box-shadow: var(--box-shadow);
 }
 
