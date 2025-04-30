@@ -99,6 +99,7 @@ section {
 
 .about-me-container {
     display: flex;
+    align-items: center;
     gap: 1rem;
 }
 
@@ -180,6 +181,9 @@ section {
 }
 
 .card-heading.font-md {
+    font-size: 0.85rem;
+}
+.card-heading.font-sm {
     font-size: 0.68rem;
 }
 
@@ -194,13 +198,16 @@ section {
 }
 
 .content-container {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
     background-color: var(--content-color);
     padding: 1rem;
     color: var(--content-font-color);
     border: 0.5rem solid var(--hero-color);
     box-shadow: var(--box-shadow);
     margin-left: 1rem;
-    line-height: 1.25rem;
+    line-height: 2rem;
     border-radius: 0.5rem;
 }
 
