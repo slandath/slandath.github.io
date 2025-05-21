@@ -6,13 +6,13 @@ title: Tom Slanda Resume
 
 **Email**: [tom.slanda@gmail.com](mailto:tom.slanda@gmail.com)  
 **LinkedIn**: [www.linkedin.com/in/tomslanda](https://www.linkedin.com/in/tomslanda)  
-**Website**: [slandath.github.io](https://slandath.github.io)  
+**Website**: [www.tomslanda.com](https://www.tomslanda.com)  
 
-[Download PDF](./files/Tom%20Slanda%20Resume.pdf)
+[Download PDF](./files/Resume.pdf)
 
 ## Professional Summary
 
-I am an experienced Project Manager, Product Owner and Scrum Master, specializing in open source software, software-as-a-service (SaaS) and web technologies.
+I am an experienced Project Manager and Web Developer.
 
 ---
 
@@ -29,7 +29,7 @@ I am an experienced Project Manager, Product Owner and Scrum Master, specializin
 
 ### **The Linux Foundation** (March 2024 to Present)
 
-#### Projects Coordinator
+#### Program Coordinator
 
 * Supported open source software project and communities.
 * Developed best practices and resources for the PMO.
@@ -59,6 +59,7 @@ I am an experienced Project Manager, Product Owner and Scrum Master, specializin
   * Successfully unblocked and closed 13 projects within 30 days, contributing to $400K in ARR gain.
 
 #### Projects
+
 * OneScan Enterprise
 * OneScan PharmacyPro
 
@@ -89,7 +90,7 @@ Bachelor of Arts, Philosophy
 
 ### **Project Management**
 
-ClickUp, Project Planning, ScrumMaster, Scrum Product Owner, SmartSheets, Waterfall Methodology
+Asana, ClickUp, Project Planning, ScrumMaster, Scrum Product Owner, SmartSheets, Waterfall Methodology
 
 ### **Software Development**
 
@@ -97,4 +98,4 @@ Agile, GitHub, Jira, Kanban, Trello
 
 ### **Web Technologies**
 
-Bash, Bootstrap, Bulma, CSS, Express, Git, Hugo, HTML, JSON, JavaScript, Jekyll, Markdown, Node.js, Nuxt, REST API, React, SQL, Tailwind CSS, TypeScript, Vue.js, XML
+Bash, CSS, Express, Git, Hugo, HTML, JSON, JavaScript, Jekyll, Node.js, Nuxt, REST API, React, SQL, Tailwind CSS, TypeScript, Vue.js, XML
