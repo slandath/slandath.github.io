@@ -54,7 +54,6 @@
     calc(var(--hero-color-lightness) - 15.1%),
     calc(var(--hero-color-alpha))
   );
-  /* --content-font-color: hsla(199, 38.7%, 32%, 1); */
   --card-heading-font-color: hsla(
     calc(var(--hero-color-hue) - 37),
     calc(var(--hero-color-saturation) - 4.9%),
@@ -270,20 +269,23 @@ section {
   max-width: 1200px;
 }
 
-.message-header > summary {
+.message-header > summary, .message-header > h2 {
   font-size: 1.75rem;
+  font-weight: 600;
   list-style: none;
   margin: 1rem 0 1rem 1rem;
 }
 
 .message-header > summary::before {
   content: '⊞ ';
+  cursor: pointer;
   display: inline-block;
   margin-right: 0.5rem;
 }
 
 .message-header[open] > summary::before {
   content: '⊟ ';
+  cursor: pointer;
 }
 
 .navbar {
