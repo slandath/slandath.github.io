@@ -40,6 +40,8 @@ I am an experienced Project Manager and Web Developer.
   * A highly efficient, open source platform for cloud-native application development.
 * High Performance Software Foundation
   * An open source, vendor neutral hub for high performance software projects, working groups, events, and training.
+* Jupyter Foundation
+  * Supporting Project Jupyter, the open source standard for computational education and research, data science and machine learning.
 * Open Mainframe Project
   * A focal point for deployment and use of Linux and Open Source in a mainframe computing environment.
 
