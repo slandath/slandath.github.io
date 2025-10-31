@@ -54,7 +54,6 @@
     calc(var(--hero-color-lightness) - 15.1%),
     calc(var(--hero-color-alpha))
   );
-  /* --content-font-color: hsla(199, 38.7%, 32%, 1); */
   --card-heading-font-color: hsla(
     calc(var(--hero-color-hue) - 37),
     calc(var(--hero-color-saturation) - 4.9%),
