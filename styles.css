@@ -1,323 +1,334 @@
 :root {
-    /* Colors */
-    /* Root Color */
-    --hero-color-hue: 160;
-    --hero-color-saturation: 42.5%;
-    --hero-color-lightness: 47.1%;
-    --hero-color-alpha: 1;
-    --hero-color: hsla(
-        var(--hero-color-hue),
-        var(--hero-color-saturation),
-        var(--hero-color-lightness),
-        var(--hero-color-alpha)
-    );
-    /* Derived Colors */
-    --bg-color: hsla(
-        calc(var(--hero-color-hue) - 45),
-        calc(var(--hero-color-saturation) + 3.4%),
-        calc(var(--hero-color-lightness) + 45.6%),
-        calc(var(--hero-color-alpha))
-    );
-    --border-color: hsla(
-        calc(var(--hero-color-hue) + 71),
-        calc(var(--hero-color-saturation) + 18.5%),
-        calc(var(--hero-color-lightness) + 36.8%),
-        calc(var(--hero-color-alpha))
-    );
-    --card-body-color: hsla(
-        calc(var(--hero-color-hue) - 34),
-        calc(var(--hero-color-saturation) - 9.2%),
-        calc(var(--hero-color-lightness) + 49.4%),
-        calc(var(--hero-color-alpha))
-    );
-    --card-heading-color: hsla(
-        calc(var(--hero-color-hue) - 19),
-        calc(var(--hero-color-saturation) + 19.1%),
-        calc(var(--hero-color-lightness) + 38.6%),
-        calc(var(--hero-color-alpha))
-    );
-    --content-color: hsla(
-        calc(var(--hero-color-hue) - 34),
-        calc(var(--hero-color-saturation) - 5%),
-        calc(var(--hero-color-lightness) + 49.4%),
-        calc(var(--hero-color-alpha))
-    );
-    --font-color: hsla(
-        calc(var(--hero-color-hue) - 7),
-        calc(var(--hero-color-saturation) + 24.8%),
-        calc(var(--hero-color-lightness) - 9.1%),
-        calc(var(--hero-color-alpha))
-    );
-    --content-font-color: hsla(
-        calc(var(--hero-color-hue) + 40),
-        calc(var(--hero-color-saturation) - 3.8%),
-        calc(var(--hero-color-lightness) - 15.1%),
-        calc(var(--hero-color-alpha))
-    );
-    /* --content-font-color: hsla(199, 38.7%, 32%, 1); */
-    --card-heading-font-color: hsla(
-        calc(var(--hero-color-hue) - 37),
-        calc(var(--hero-color-saturation) - 4.9%),
-        calc(var(--hero-color-lightness) - 10.6%),
-        calc(var(--hero-color-alpha))
-    );
-    --hero-font-color: hsla(
-        calc(var(--hero-color-hue) - 8),
-        calc(var(--hero-color-saturation) + 10.8%),
-        calc(var(--hero-color-lightness) + 47%),
-        calc(var(--hero-color-alpha))
-    );
-    --black: hsla(0, 0%, 0%, 1);
-    --white: hsla(200, 100%, 100%, 1);
+  /* Colors */
+  /* Root Color */
+  --hero-color-hue: 160;
+  --hero-color-saturation: 42.5%;
+  --hero-color-lightness: 47.1%;
+  --hero-color-alpha: 1;
+  --hero-color: hsla(
+    var(--hero-color-hue),
+    var(--hero-color-saturation),
+    var(--hero-color-lightness),
+    var(--hero-color-alpha)
+  );
+  /* Derived Colors */
+  --bg-color: hsla(
+    calc(var(--hero-color-hue) - 45),
+    calc(var(--hero-color-saturation) + 3.4%),
+    calc(var(--hero-color-lightness) + 45.6%),
+    calc(var(--hero-color-alpha))
+  );
+  --border-color: hsla(
+    calc(var(--hero-color-hue) + 71),
+    calc(var(--hero-color-saturation) + 18.5%),
+    calc(var(--hero-color-lightness) + 36.8%),
+    calc(var(--hero-color-alpha))
+  );
+  --card-body-color: hsla(
+    calc(var(--hero-color-hue) - 34),
+    calc(var(--hero-color-saturation) - 9.2%),
+    calc(var(--hero-color-lightness) + 49.4%),
+    calc(var(--hero-color-alpha))
+  );
+  --card-heading-color: hsla(
+    calc(var(--hero-color-hue) - 19),
+    calc(var(--hero-color-saturation) + 19.1%),
+    calc(var(--hero-color-lightness) + 38.6%),
+    calc(var(--hero-color-alpha))
+  );
+  --content-color: hsla(
+    calc(var(--hero-color-hue) - 34),
+    calc(var(--hero-color-saturation) - 5%),
+    calc(var(--hero-color-lightness) + 49.4%),
+    calc(var(--hero-color-alpha))
+  );
+  --font-color: hsla(
+    calc(var(--hero-color-hue) - 7),
+    calc(var(--hero-color-saturation) + 24.8%),
+    calc(var(--hero-color-lightness) - 9.1%),
+    calc(var(--hero-color-alpha))
+  );
+  --content-font-color: hsla(
+    calc(var(--hero-color-hue) + 40),
+    calc(var(--hero-color-saturation) - 3.8%),
+    calc(var(--hero-color-lightness) - 15.1%),
+    calc(var(--hero-color-alpha))
+  );
+  /* --content-font-color: hsla(199, 38.7%, 32%, 1); */
+  --card-heading-font-color: hsla(
+    calc(var(--hero-color-hue) - 37),
+    calc(var(--hero-color-saturation) - 4.9%),
+    calc(var(--hero-color-lightness) - 10.6%),
+    calc(var(--hero-color-alpha))
+  );
+  --hero-font-color: hsla(
+    calc(var(--hero-color-hue) - 8),
+    calc(var(--hero-color-saturation) + 10.8%),
+    calc(var(--hero-color-lightness) + 47%),
+    calc(var(--hero-color-alpha))
+  );
+  --black: hsla(0, 0%, 0%, 1);
+  --white: hsla(200, 100%, 100%, 1);
 
-    /* Border */
-    --box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    --border-radius: 0.438rem 0.438rem 0.438rem 0.438rem;
+  /* Border */
+  --box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  --border-radius: 0.438rem 0.438rem 0.438rem 0.438rem;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 body {
-    background-color: var(--bg-color);
-    color: var(--font-color);
+  background-color: var(--bg-color);
+  color: var(--font-color);
 }
 
 html {
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  scroll-behavior: smooth;
 }
 
 section {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .about-me-container {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border-radius: 0.5rem;
-    background-color: var(--hero-color);
-    height: 25rem;
-    width: 18.75rem;
-    box-shadow: var(--box-shadow);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 0.5rem;
+  background-color: var(--hero-color);
+  height: 25rem;
+  width: 18.75rem;
+  box-shadow: var(--box-shadow);
 }
 
 .card-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(332px, 1fr));
-    gap: 1rem;
-    place-items: center;
-    margin: 0 auto;
-    margin-left: 1rem;
-    color: var(--content-font-color);
-    line-height: 1.25rem;
-    border-radius: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(332px, 1fr));
+  gap: 1rem;
+  place-items: center;
+  margin: 0 auto;
+  margin-left: 1rem;
+  color: var(--content-font-color);
+  line-height: 1.25rem;
+  border-radius: 0.5rem;
 }
 
 .card-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--content-color);
-    color: var(--content-font-color);
-    padding: 0.5rem;
-    border: 0.063rem solid transparent;
-    margin: 0 0.5rem;
-    height: 9.375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--content-color);
+  color: var(--content-font-color);
+  padding: 0.5rem;
+  border: 0.063rem solid transparent;
+  margin: 0 0.5rem;
+  height: 9.375rem;
 }
 
 .card-content.block {
-    display: block;
-    padding-left: 1rem;
-    text-align: left;
+  display: block;
+  padding-left: 1rem;
+  text-align: left;
 }
 
 .card-divider {
-    margin: 0 0.5rem;
-    padding: 0.25rem;
-    border-top: 0.063rem solid var(--hero-color);
-    border-bottom: 0.063rem solid var(--hero-color);
-    background-color: var(--card-heading-color);
+  margin: 0 0.5rem;
+  padding: 0.25rem;
+  border-top: 0.063rem solid var(--hero-color);
+  border-bottom: 0.063rem solid var(--hero-color);
+  background-color: var(--card-heading-color);
 }
 
 .card-footer {
-    background-color: var(--card-heading-color);
-    color: var(--card-heading-font-color);
-    padding: 0.5rem;
-    border-radius: 0 0 0.438rem 0.438rem;
-    border: 0.063rem solid transparent;
-    border-top: 0.063rem solid var(--hero-color);
-    margin: 0 0.5rem 0.5rem 0.5rem;
+  background-color: var(--card-heading-color);
+  color: var(--card-heading-font-color);
+  padding: 0.5rem;
+  border-radius: 0 0 0.438rem 0.438rem;
+  border: 0.063rem solid transparent;
+  border-top: 0.063rem solid var(--hero-color);
+  margin: 0 0.5rem 0.5rem 0.5rem;
 }
 
 .card-footer a {
-    color: var(--card-heading-font-color);
+  color: var(--card-heading-font-color);
 }
 
 .card-footer a:hover {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .card-heading {
-    background-color: var(--card-heading-color);
-    color: var(--card-heading-font-color);
-    padding: 0.5rem;
-    border-radius: 0.438rem 0.438rem 0 0;
-    border: 1px solid transparent;
-    border-bottom: 0.063rem solid var(--hero-color);
-    margin: 0.5rem 0.5rem 0 0.5rem;
+  background-color: var(--card-heading-color);
+  color: var(--card-heading-font-color);
+  padding: 0.5rem;
+  border-radius: 0.438rem 0.438rem 0 0;
+  border: 1px solid transparent;
+  border-bottom: 0.063rem solid var(--hero-color);
+  margin: 0.5rem 0.5rem 0 0.5rem;
 }
 
 .card-heading.font-md {
-    font-size: 0.85rem;
+  font-size: 0.85rem;
 }
 .card-heading.font-sm {
-    font-size: 0.68rem;
+  font-size: 0.68rem;
 }
 
 .card-image {
-    display: flex;
-    align-items: center;
-    place-content: center;
-    background-color: var(--content-color);
-    margin: 0 0.5rem 0 0.5rem;
-    padding: 1rem 0 1rem 0;
-    height: 12.5rem;
+  display: flex;
+  align-items: center;
+  place-content: center;
+  background-color: var(--content-color);
+  margin: 0 0.5rem 0 0.5rem;
+  padding: 1rem 0 1rem 0;
+  height: 12.5rem;
 }
 
 .content-container {
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-    background-color: var(--content-color);
-    padding: 1rem;
-    color: var(--content-font-color);
-    border: 0.5rem solid var(--hero-color);
-    box-shadow: var(--box-shadow);
-    margin-left: 1rem;
-    line-height: 2rem;
-    border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  background-color: var(--content-color);
+  padding: 1rem;
+  color: var(--content-font-color);
+  border: 0.5rem solid var(--hero-color);
+  box-shadow: var(--box-shadow);
+  margin-left: 1rem;
+  line-height: 2rem;
+  border-radius: 0.5rem;
 }
 
 .footer {
-    display: flex;
-    color: var(--hero-font-color);
-    flex-direction: column;
-    row-gap: 1rem;
-    background-color: var(--hero-color);
-    margin-top: 1rem;
-    padding: 1rem;
-    border-top: 0.063rem solid transparent;
+  display: flex;
+  color: var(--hero-font-color);
+  flex-direction: column;
+  row-gap: 1rem;
+  background-color: var(--hero-color);
+  margin-top: 1rem;
+  padding: 1rem;
+  border-top: 0.063rem solid transparent;
 }
 
 .footer a {
-    text-decoration: none;
-    color: var(--hero-font-color);
+  text-decoration: none;
+  color: var(--hero-font-color);
 }
 
 .footer a:hover {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: center;
-    gap: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 .headshot-container {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .headshot-container img {
-    border: 0.5rem solid var(--hero-color);
-    border-radius: 0.5rem;
-    box-shadow: var(--box-shadow);
+  border: 0.5rem solid var(--hero-color);
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
 }
 
 .hero-banner {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    background-color: var(--hero-color);
-    padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--hero-color);
+  padding: 1rem;
 }
 
 .hero-banner h1 {
-    width: 100%;
-    color: var(--hero-font-color);
-    text-shadow: 0 0 0.5rem var(--card-heading-font-color);
-    font-size: 2.5rem;
+  width: 100%;
+  color: var(--hero-font-color);
+  text-shadow: 0 0 0.5rem var(--card-heading-font-color);
+  font-size: 2.5rem;
 }
 
 .main-container {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
-.message-header > h2 {
-    font-size: 1.75rem;
-    margin: 1rem 0 1rem 1rem;
+.message-header > summary {
+  font-size: 1.75rem;
+  list-style: none;
+  margin: 1rem 0 1rem 1rem;
+}
+
+.message-header > summary::before {
+  content: '⊞ ';
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.message-header[open] > summary::before {
+  content: '⊟ ';
 }
 
 .navbar {
-    background-color: var(--hero-color);
-    display: flex;
-    text-decoration: none;
-    padding-top: 2rem;
-    justify-content: space-around;
-    list-style: none;
+  background-color: var(--hero-color);
+  display: flex;
+  text-decoration: none;
+  padding-top: 2rem;
+  justify-content: space-around;
+  list-style: none;
 }
 
 .navbar li a {
-    color: var(--hero-font-color);
-    text-decoration: none;
-    padding: 1rem 0.938rem;
-    border-radius: 0.438rem 0.438rem 0 0;
-    transition: background-color 0.3s ease;
+  color: var(--hero-font-color);
+  text-decoration: none;
+  padding: 1rem 0.938rem;
+  border-radius: 0.438rem 0.438rem 0 0;
+  transition: background-color 0.3s ease;
 }
 
 .navbar li a:hover {
-    background-color: var(--bg-color);
-    border: 0.063rem solid transparent;
-    border-bottom: none;
-    color: var(--font-color);
+  background-color: var(--bg-color);
+  border: 0.063rem solid transparent;
+  border-bottom: none;
+  color: var(--font-color);
 }
 
 .past-projects {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 @media (max-width: 1200px) {
-    .navbar {
-        display: none;
-    }
+  .navbar {
+    display: none;
+  }
 }
 
 @media (max-width: 750px) {
-    .about-me-container {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+  .about-me-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
-    html {
-        scroll-behavior: auto;
-    }
+  html {
+    scroll-behavior: auto;
+  }
 }
