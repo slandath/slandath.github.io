@@ -269,7 +269,7 @@ section {
   max-width: 1200px;
 }
 
-.message-header > summary, h2 {
+.message-header > summary, .message-header > h2 {
   font-size: 1.75rem;
   font-weight: 600;
   list-style: none;
