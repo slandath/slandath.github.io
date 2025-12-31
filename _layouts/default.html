@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://raw.githubusercontent.com/slandath/images/main/resized/panda.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/slandath/images/main/resized/panda.png"
+    />
     <title>{{page.title}}</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
+  <body>
     {{content}}
-</body>
-<script>
-    const hamburger = document.querySelector('#hamburger');
-    const navbar = document.querySelector('.navbar');
-    const links = document.querySelectorAll('.navbar a');
+  </body>
+  <script>
+    const hamburger = document.querySelector("#hamburger");
+    const navbar = document.querySelector(".navbar");
+    const links = document.querySelectorAll(".navbar a");
 
-    hamburger.addEventListener('click', () => {
-        navbar.classList.toggle('active');
+    hamburger.addEventListener("click", () => {
+      navbar.classList.toggle("active");
     });
 
-    // Add event listeners to each nav item
-    links.forEach(item => {
-        item.addEventListener('click', () => {
-            navbar.classList.remove('active'); // Close the menu
-        });
+    links.forEach((item) => {
+      item.addEventListener("click", () => {
+        navbar.classList.remove("active");
+      });
     });
-</script>
-
+  </script>
 </html>
