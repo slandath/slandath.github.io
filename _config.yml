@@ -18,7 +18,7 @@ email: tom.slanda@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   My personal website to showcase my projects and portfolio.
 github_username: slandath
-minimal_mistakes_skin: neon
+minimal_mistakes_skin: "neon"
 search: true
 
 # Build settings
