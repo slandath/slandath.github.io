@@ -1,0 +1,21 @@
+- name: Turizak
+  url: https://turizak.github.io/
+  description: My Web Development Team.
+- name: Arithmetic Game
+  url: https://arithmetic.tomslanda.com/
+  description: Practice your arithmetic!
+- name: Coffee Blog
+  url: https://coffee.tomslanda.com/
+  description: All things java!
+- name: CS2 Keybind Tool
+  url: https://cs2.tomslanda.com/
+  description: Generate commands for your keybinds.
+- name: March Madness Bracket
+  url: https://basketball.tomslanda.com/
+  description: A bracket for the NCAA Men's Basketball Tournament.
+- name: Pokemon Battle Tool
+  url: https://poke.tomslanda.com/
+  description: A simple tool to create optimal pokemon match-ups.
+- name: Project Workbook
+  url: https://docs.google.com/spreadsheets/d/1D-2Cn1jdH59Oz5HGSrb_D88fZMwAG5-r-I1EDdUVizs/edit?usp=sharing
+  description:  A complete project workbook including statement of work, deliverables tracker, and gantt chart.

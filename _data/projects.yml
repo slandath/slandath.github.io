@@ -1,0 +1,12 @@
+ - name: "Cloud Foundry Foundation"
+   url: https://www.cloudfoundry.org/
+   description: "A highly efficient, open source platform for cloud-native application development."
+ - name: "High Performance Software Foundation"
+   url: https://www.hpsf.io/
+   description: "A neutral hub for open source high performance software."
+ - name: "Jupyter Foundation"
+   url: https://jupyter.org/
+   description: "Free software, open standards, and web services for interactive computing across all programming languages."
+ - name: "Open Mainframe Project"
+   url: https://openmainframeproject.org/
+   description: "A focal point for deployment and use of Linux and Open Source in a mainframe computing environment."
