@@ -20,8 +20,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: https://www.tomslanda.com
 repository: slandath/slandath.github.io
 github_username: slandath
-# remote_theme: mmistakes/minimal-mistakes@4.27.3
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes@4.27.3
+# theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "neon"
 search: true
 
