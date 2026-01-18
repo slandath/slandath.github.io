@@ -13,17 +13,20 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: My Website
+title: Tom's Website
 email: tom.slanda@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   My personal website to showcase my projects and portfolio.
+url: https://www.tomslanda.com
+repository: slandath/slandath.github.io
 github_username: slandath
+# remote_theme: mmistakes/minimal-mistakes@4.27.3
+theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "neon"
 search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes@4.27.3
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -59,12 +62,6 @@ author:
   avatar: "/assets/images/headshot.jpeg"
   bio: "I am an experienced Project Manager and Web Developer."
   links:
-    # - label: "Website"
-    #   icon: "fas fa-fw fa-link"
-    #   url: "https://"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
     - label: "Email"
       icon: "fab fa-fw fa-at"
       url: "mailto:tom.slanda@gmail.com"
@@ -74,15 +71,12 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/tomslanda"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-bluesky"
+      url: "https://bsky.app/profile/tomslanda.bsky.social"
 
 footer:
   links:
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
     - label: "Email"
       icon: "fab fa-fw fa-at"
       url: "mailto:tom.slanda@gmail.com"
@@ -92,22 +86,23 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/tomslanda/"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-bluesky"
+      url: "https://bsky.app/profile/tomslanda.bsky.social"
+  since: "2024"
 
 defaults:
   # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: true
+  #     comments: true
+  #     share: true
+  #     related: true
   # _pages
   - scope:
       path: "_pages"
