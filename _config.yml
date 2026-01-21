@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Tom's Website
+title: "Tom Slanda"
 email: tom.slanda@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   My personal website to showcase my projects and portfolio.
@@ -23,7 +23,9 @@ github_username: slandath
 remote_theme: mmistakes/minimal-mistakes@4.27.3
 # theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "neon"
-search: true
+search: false
+atom_feed:
+  hide: true
 
 # Build settings
 markdown: kramdown
@@ -73,7 +75,7 @@ author:
       url: "https://www.linkedin.com/in/tomslanda"
     - label: "Bluesky"
       icon: "fab fa-fw fa-bluesky"
-      url: "https://bsky.app/profile/tomslanda.bsky.social"
+      url: "https://bsky.app/profile/tomslanda.com"
 
 footer:
   links:
@@ -88,7 +90,7 @@ footer:
       url: "https://www.linkedin.com/in/tomslanda/"
     - label: "Bluesky"
       icon: "fab fa-fw fa-bluesky"
-      url: "https://bsky.app/profile/tomslanda.bsky.social"
+      url: "https://bsky.app/profile/tomslanda.com"
   since: "2024"
 
 defaults:
