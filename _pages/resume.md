@@ -1,24 +1,10 @@
 ---
 title: "Resume"
-layout: splash
-permalink: /resume/
+layout: single
+permalink: /
 ---
-  
-<br>
-
-# Tom Slanda, CSM, CSPO
-
-**Email**: [tom.slanda@gmail.com](mailto:tom.slanda@gmail.com)  
-**LinkedIn**: [www.linkedin.com/in/tomslanda](https://www.linkedin.com/in/tomslanda)  
-**Website**: [www.tomslanda.com](https://www.tomslanda.com)  
 
 [Download PDF](./files/Resume.pdf)
-
-## Professional Summary
-
-I am an experienced Project Manager and Web Developer.
-
----
 
 ## Certifications
 
@@ -27,34 +13,32 @@ I am an experienced Project Manager and Web Developer.
 * Certified ScrumMaster (CSM) from Scrum Alliance
 * Meta Full-Stack Engineer Professional Certificate
 
----
-
 ## Work Experience
 
-### **The Linux Foundation** (March 2024 to Present)
+### [The Linux Foundation](https://www.linuxfoundation.org/) (March 2024 to Present)
 
 #### Program Coordinator
 
-* Supported open source software project and communities.
-* Developed best practices and resources for the PMO.
+* Supporting open source software project and communities.
+* Developing best practices and resources for the Project Management Office (PMO).
 
 #### Current Projects
 
-* Cloud Foundry
+* [Cloud Foundry](https://www.cloudfoundry.org/)
   * A highly efficient, open source platform for cloud-native application development.
-* High Performance Software Foundation
+* [High Performance Software Foundation](https://hpsf.io/)
   * An open source, vendor neutral hub for high performance software projects, working groups, events, and training.
-* Jupyter Foundation
+* [Jupyter Foundation](https://jupyterfoundation.org/)
   * Supporting Project Jupyter, the open source standard for computational education and research, data science and machine learning.
-* Open Mainframe Project
+* [Open Mainframe Project](https://openmainframeproject.org/)
   * A focal point for deployment and use of Linux and Open Source in a mainframe computing environment.
 
 #### Past Projects
 
-* Tazama
+* [Tazama](https://www.tazama.org/)
   * An open source, real-time transaction monitoring software.
 
-### **LSPedia** (June 2023 to March 2024)
+### [LSPedia](https://www.lspedia.com) (June 2023 to March 2024)
 
 #### IT Project Manager
 
@@ -69,7 +53,7 @@ I am an experienced Project Manager and Web Developer.
 * OneScan Enterprise
 * OneScan PharmacyPro
 
-### **The Orsus Group** (September 2015 to May 2023)
+### [The Orsus Group](https://theorsusgroup.com) (September 2015 to May 2023)
 
 #### Technology Manager
 
@@ -82,15 +66,11 @@ I am an experienced Project Manager and Web Developer.
 * UKG Ready
 * Accio Enterprise
 
----
-
 ## Education
 
 ### **Michigan State University** (East Lansing, Michigan)
 
 Bachelor of Arts, Philosophy
-
----
 
 ## Skills
 

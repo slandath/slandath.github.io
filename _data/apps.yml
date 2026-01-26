@@ -1,9 +1,6 @@
 - name: Turizak
   url: https://turizak.github.io/
   description: My Web Development Team.
-- name: Arithmetic Game
-  url: https://arithmetic.tomslanda.com/
-  description: Practice your arithmetic!
 - name: Coffee Blog
   url: https://coffee.tomslanda.com/
   description: All things java!
@@ -13,6 +10,9 @@
 - name: March Madness Bracket
   url: https://basketball.tomslanda.com/
   description: A bracket for the NCAA Men's Basketball Tournament.
+- name: News Aggregator
+  url: https://news.tomslanda.com/
+  description: All the stories in one place.
 - name: Pokemon Battle Tool
   url: https://poke.tomslanda.com/
   description: A simple tool to create optimal pokemon match-ups.

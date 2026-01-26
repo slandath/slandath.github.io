@@ -1,11 +1,3 @@
 main:
-  - title: "Certifications"
-    url: /certifications/
-  - title: "Experience"
-    url: /experience/
   - title: "Portfolio"
     url: /portfolio/
-  - title: "Projects"
-    url: /projects/
-  - title: "Resume"
-    url: /resume/
