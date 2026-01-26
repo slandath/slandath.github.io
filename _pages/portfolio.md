@@ -1,6 +1,6 @@
 ---
 title: "Portfolio"
-layout: single
+layout: splash
 permalink: /portfolio/
 header:
   overlay_color: "#000"
