@@ -4,7 +4,7 @@ layout: single
 permalink: /
 ---
 
-[Download PDF](./files/Resume.pdf)
+[Download PDF](./Resume.pdf)
 
 ## Certifications
 
@@ -25,18 +25,13 @@ permalink: /
 #### Current Projects
 
 * [Cloud Foundry](https://www.cloudfoundry.org/)
-  * A highly efficient, open source platform for cloud-native application development.
 * [High Performance Software Foundation](https://hpsf.io/)
-  * An open source, vendor neutral hub for high performance software projects, working groups, events, and training.
 * [Jupyter Foundation](https://jupyterfoundation.org/)
-  * Supporting Project Jupyter, the open source standard for computational education and research, data science and machine learning.
 * [Open Mainframe Project](https://openmainframeproject.org/)
-  * A focal point for deployment and use of Linux and Open Source in a mainframe computing environment.
 
 #### Past Projects
 
 * [Tazama](https://www.tazama.org/)
-  * An open source, real-time transaction monitoring software.
 
 ### [LSPedia](https://www.lspedia.com) (June 2023 to March 2024)
 
