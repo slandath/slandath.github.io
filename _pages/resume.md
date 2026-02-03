@@ -4,7 +4,7 @@ layout: single
 permalink: /resume/
 ---
 
-[Download PDF](./Resume.pdf)
+[Download PDF](/Resume.pdf)
 
 ## Certifications
 
