@@ -1,7 +1,7 @@
 ---
 title: "Resume"
 layout: single
-permalink: /
+permalink: /resume/
 ---
 
 [Download PDF](./Resume.pdf)
