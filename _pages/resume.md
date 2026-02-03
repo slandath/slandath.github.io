@@ -19,7 +19,7 @@ permalink: /resume/
 
 #### Program Coordinator
 
-* Supporting open source software project and communities.
+* Supporting open-source software projects and communities.
 * Developing best practices and resources for the Project Management Office (PMO).
 
 #### Current Projects
