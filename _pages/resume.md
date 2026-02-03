@@ -1,10 +1,10 @@
 ---
 title: "Resume"
 layout: single
-permalink: /
+permalink: /resume/
 ---
 
-[Download PDF](./Resume.pdf)
+[Download PDF](/Resume.pdf)
 
 ## Certifications
 
@@ -19,7 +19,7 @@ permalink: /
 
 #### Program Coordinator
 
-* Supporting open source software project and communities.
+* Supporting open-source software projects and communities.
 * Developing best practices and resources for the Project Management Office (PMO).
 
 #### Current Projects
