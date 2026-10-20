@@ -8,58 +8,46 @@ permalink: /
 
 ## Certifications
 
-* Google Professional Certificate in Project Management
-* Certified Scrum Product Owner (CSPO) from Scrum Alliance
-* Certified ScrumMaster (CSM) from Scrum Alliance
-* Meta Full-Stack Engineer Professional Certificate
+{% for certification in site.data.certifications %}
+* {{ certification.name }}
+{% endfor %}
 
 ## Work Experience
 
-### [The Linux Foundation](https://www.linuxfoundation.org/) (March 2024 to Present)
+{% for job in site.data.jobs %}
+### [{{ job.name }}]({{ job.url }}) ({{ job.dates }})
 
-#### Program Coordinator
+#### {{ job.title }}
 
-* Supporting open-source software projects and communities.
-* Developing best practices and resources for the Project Management Office (PMO).
+{% for bullet in job.bullets %}
+* {{ bullet }}
+{% endfor %}
 
+{% if job.current_projects %}
 #### Current Projects
 
-* [Cloud Foundry](https://www.cloudfoundry.org/)
-* [High Performance Software Foundation](https://hpsf.io/)
-* [Jupyter Foundation](https://jupyterfoundation.org/)
-* [Open Mainframe Project](https://openmainframeproject.org/)
+{% for project in job.current_projects %}
+* [{{ project.name }}]({{ project.url }})
+{% endfor %}
+{% endif %}
 
+{% if job.past_projects %}
 #### Past Projects
 
-* [Tazama](https://www.tazama.org/)
+{% for project in job.past_projects %}
+* [{{ project.name }}]({{ project.url }})
+{% endfor %}
+{% endif %}
 
-### [LSPedia](https://www.lspedia.com) (June 2023 to March 2024)
-
-#### IT Project Manager
-
-* Product owner for pharmacy serialization software.
-  * Achieved 80% increase in customer satisfaction by overhauling the onboarding process.
-* Managed enterprise serialization software projects.
-  * Reduced average project length by 75% through project plan streamlining.
-  * Successfully unblocked and closed 13 projects within 30 days, contributing to $400K in ARR gain.
-
+{% if job.projects %}
 #### Projects
 
-* OneScan Enterprise
-* OneScan PharmacyPro
+{% for project in job.projects %}
+* {{ project }}
+{% endfor %}
+{% endif %}
 
-### [The Orsus Group](https://theorsusgroup.com) (September 2015 to May 2023)
-
-#### Technology Manager
-
-* Oversaw planning and management of software integration projects for HR professionals.
-* Delivered software demonstrations for sales leads and clients.
-* Administered the background screening software platform.
-
-#### Projects
-
-* UKG Ready
-* Accio Enterprise
+{% endfor %}
 
 ## Education
 

@@ -1,12 +1,40 @@
+- name: "The Linux Foundation"
+  title: "Program Coordinator"
+  url: "https://www.linuxfoundation.org/"
+  dates: "March 2024 to Present"
+  bullets:
+    - "Supporting open-source software projects and communities."
+    - "Developing best practices and resources for the Project Management Office (PMO)."
+  current_projects:
+    - name: "Cloud Foundry"
+      url: "https://www.cloudfoundry.org/"
+    - name: "High Performance Software Foundation"
+      url: "https://hpsf.io/"
+    - name: "Jupyter Foundation"
+      url: "https://jupyterfoundation.org/"
+    - name: "Open Mainframe Project"
+      url: "https://openmainframeproject.org/"
+  past_projects:
+    - name: "Tazama"
+      url: "https://www.tazama.org/"
 - name: "LSPedia"
   title: "IT Project Manager"
-  url: https://www.lspedia.com/
-  description: "Industry leading serialization and supply chain solutions."
-- name: "Cello HR"
-  title: "Technology Manager"
-  url: https://cellohr.com/
-  description: "HR Technology and Enhanced HR support."
+  url: "https://www.lspedia.com"
+  dates: "June 2023 to March 2024"
+  bullets:
+    - "Product owner for pharmacy serialization software.\n  * Achieved 80% increase in customer satisfaction by overhauling the onboarding process."
+    - "Managed enterprise serialization software projects.\n  * Reduced average project length by 75% through project plan streamlining.\n  * Successfully unblocked and closed 13 projects within 30 days, contributing to $400K in ARR gain."
+  projects:
+    - "OneScan Enterprise"
+    - "OneScan PharmacyPro"
 - name: "The Orsus Group"
   title: "Technology Manager"
-  url: https://www.theorsusgroup.com/
-  description: "The industy leader in accurate and dependable background screening."
+  url: "https://theorsusgroup.com"
+  dates: "September 2015 to May 2023"
+  bullets:
+    - "Oversaw planning and management of software integration projects for HR professionals."
+    - "Delivered software demonstrations for sales leads and clients."
+    - "Administered the background screening software platform."
+  projects:
+    - "UKG Ready"
+    - "Accio Enterprise"
